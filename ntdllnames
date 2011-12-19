@@ -1,0 +1,4816 @@
+!This program cannot be run in DOS mode.
+RichL!
+.text
+`.data
+.rsrc
+@.reloc
+A$9Bu
+A$9Bu
+9At
+[_^]
+<$tPf
+<$tL
+D$f
+D$%
+<$tPf
+D$tQf
+WVS3
+WVU3
+N+D$
+L$u
+;D$v
++D$
+;D$v
+D$3
+;T$w
+N+D$
+D$3
+;T$w
+t(It
+<$t6f
+|%=2
+|!=2
+D$S
+tlHt.
+t>Hu
+uRFGHt
+t&:a
+PPPPPPPP
+L$W
+GIt#
+L$W
+tzVS
+GIt%
+t/Ku
+PPPPPPPP
+PPPPPPPP
+<$tTf
+N+t$
+L$3
+[_^]
+t@JQt-
+[_^]
+F Qt<
+F|Jt
+[_^]
++D$
+SVW3
+uRd
+ntdll.dll
+CsrAllocateCaptureBuffer
+CsrAllocateMessagePointer
+CsrCaptureMessageBuffer
+CsrCaptureMessageMultiUnicodeStringsInPlace
+CsrCaptureMessageString
+CsrCaptureTimeout
+CsrClientCallServer
+CsrClientConnectToServer
+CsrFreeCaptureBuffer
+CsrGetProcessId
+CsrIdentifyAlertableThread
+CsrNewThread
+CsrProbeForRead
+CsrProbeForWrite
+CsrSetPriorityClass
+DbgBreakPoint
+DbgPrint
+DbgPrintEx
+DbgPrintReturnControlC
+DbgPrompt
+DbgQueryDebugFilterState
+DbgSetDebugFilterState
+DbgUiConnectToDbg
+DbgUiContinue
+DbgUiConvertStateChangeStructure
+DbgUiDebugActiveProcess
+DbgUiGetThreadDebugObject
+DbgUiIssueRemoteBreakin
+DbgUiRemoteBreakin
+DbgUiSetThreadDebugObject
+DbgUiStopDebugging
+DbgUiWaitStateChange
+DbgUserBreakPoint
+KiFastSystemCall
+KiFastSystemCallRet
+KiIntSystemCall
+KiRaiseUserExceptionDispatcher
+KiUserApcDispatcher
+KiUserCallbackDispatcher
+KiUserExceptionDispatcher
+LdrAccessOutOfProcessResource
+LdrAccessResource
+LdrAddRefDll
+LdrAlternateResourcesEnabled
+LdrCreateOutOfProcessImage
+LdrDestroyOutOfProcessImage
+LdrDisableThreadCalloutsForDll
+LdrEnumResources
+LdrEnumerateLoadedModules
+LdrFindCreateProcessManifest
+LdrFindEntryForAddress
+LdrFindResourceDirectory_U
+LdrFindResourceEx_U
+LdrFindResource_U
+LdrFlushAlternateResourceModules
+LdrGetDllHandle
+LdrGetDllHandleEx
+LdrGetProcedureAddress
+LdrHotPatchRoutine
+LdrInitShimEngineDynamic
+LdrInitializeThunk
+LdrLoadAlternateResourceModule
+LdrLoadDll
+LdrLockLoaderLock
+LdrProcessRelocationBlock
+LdrQueryImageFileExecutionOptions
+LdrQueryProcessModuleInformation
+LdrSetAppCompatDllRedirectionCallback
+LdrSetDllManifestProber
+LdrShutdownProcess
+LdrShutdownThread
+LdrUnloadAlternateResourceModule
+LdrUnloadDll
+LdrUnlockLoaderLock
+LdrVerifyImageMatchesChecksum
+NlsAnsiCodePage
+NlsMbCodePageTag
+NlsMbOemCodePageTag
+NtAcceptConnectPort
+NtAccessCheck
+NtAccessCheckAndAuditAlarm
+NtAccessCheckByType
+NtAccessCheckByTypeAndAuditAlarm
+NtAccessCheckByTypeResultList
+NtAccessCheckByTypeResultListAndAuditAlarm
+NtAccessCheckByTypeResultListAndAuditAlarmByHandle
+NtAddAtom
+NtAddBootEntry
+NtAdjustGroupsToken
+NtAdjustPrivilegesToken
+NtAlertResumeThread
+NtAlertThread
+NtAllocateLocallyUniqueId
+NtAllocateUserPhysicalPages
+NtAllocateUuids
+NtAllocateVirtualMemory
+NtAreMappedFilesTheSame
+NtAssignProcessToJobObject
+NtCallbackReturn
+NtCancelDeviceWakeupRequest
+NtCancelIoFile
+NtCancelTimer
+NtClearEvent
+NtClose
+NtCloseObjectAuditAlarm
+NtCompactKeys
+NtCompareTokens
+NtCompleteConnectPort
+NtCompressKey
+NtConnectPort
+NtContinue
+NtCreateDebugObject
+NtCreateDirectoryObject
+NtCreateEvent
+NtCreateEventPair
+NtCreateFile
+NtCreateIoCompletion
+NtCreateJobObject
+NtCreateJobSet
+NtCreateKey
+NtCreateKeyedEvent
+NtCreateMailslotFile
+NtCreateMutant
+NtCreateNamedPipeFile
+NtCreatePagingFile
+NtCreatePort
+NtCreateProcess
+NtCreateProcessEx
+NtCreateProfile
+NtCreateSection
+NtCreateSemaphore
+NtCreateSymbolicLinkObject
+NtCreateThread
+NtCreateTimer
+NtCreateToken
+NtCreateWaitablePort
+NtCurrentTeb
+NtDebugActiveProcess
+NtDebugContinue
+NtDelayExecution
+NtDeleteAtom
+NtDeleteBootEntry
+NtDeleteFile
+NtDeleteKey
+NtDeleteObjectAuditAlarm
+NtDeleteValueKey
+NtDeviceIoControlFile
+NtDisplayString
+NtDuplicateObject
+NtDuplicateToken
+NtEnumerateBootEntries
+NtEnumerateKey
+NtEnumerateSystemEnvironmentValuesEx
+NtEnumerateValueKey
+NtExtendSection
+NtFilterToken
+NtFindAtom
+NtFlushBuffersFile
+NtFlushInstructionCache
+NtFlushKey
+NtFlushVirtualMemory
+NtFlushWriteBuffer
+NtFreeUserPhysicalPages
+NtFreeVirtualMemory
+NtFsControlFile
+NtGetContextThread
+NtGetDevicePowerState
+NtGetPlugPlayEvent
+NtGetWriteWatch
+NtImpersonateAnonymousToken
+NtImpersonateClientOfPort
+NtImpersonateThread
+NtInitializeRegistry
+NtInitiatePowerAction
+NtIsProcessInJob
+NtIsSystemResumeAutomatic
+NtListenPort
+NtLoadDriver
+NtLoadKey
+NtLoadKey2
+NtLockFile
+NtLockProductActivationKeys
+NtLockRegistryKey
+NtLockVirtualMemory
+NtMakePermanentObject
+NtMakeTemporaryObject
+NtMapUserPhysicalPages
+NtMapUserPhysicalPagesScatter
+NtMapViewOfSection
+NtModifyBootEntry
+NtNotifyChangeDirectoryFile
+NtNotifyChangeKey
+NtNotifyChangeMultipleKeys
+NtOpenDirectoryObject
+NtOpenEvent
+NtOpenEventPair
+NtOpenFile
+NtOpenIoCompletion
+NtOpenJobObject
+NtOpenKey
+NtOpenKeyedEvent
+NtOpenMutant
+NtOpenObjectAuditAlarm
+NtOpenProcess
+NtOpenProcessToken
+NtOpenProcessTokenEx
+NtOpenSection
+NtOpenSemaphore
+NtOpenSymbolicLinkObject
+NtOpenThread
+NtOpenThreadToken
+NtOpenThreadTokenEx
+NtOpenTimer
+NtPlugPlayControl
+NtPowerInformation
+NtPrivilegeCheck
+NtPrivilegeObjectAuditAlarm
+NtPrivilegedServiceAuditAlarm
+NtProtectVirtualMemory
+NtPulseEvent
+NtQueryAttributesFile
+NtQueryBootEntryOrder
+NtQueryBootOptions
+NtQueryDebugFilterState
+NtQueryDefaultLocale
+NtQueryDefaultUILanguage
+NtQueryDirectoryFile
+NtQueryDirectoryObject
+NtQueryEaFile
+NtQueryEvent
+NtQueryFullAttributesFile
+NtQueryInformationAtom
+NtQueryInformationFile
+NtQueryInformationJobObject
+NtQueryInformationPort
+NtQueryInformationProcess
+NtQueryInformationThread
+NtQueryInformationToken
+NtQueryInstallUILanguage
+NtQueryIntervalProfile
+NtQueryIoCompletion
+NtQueryKey
+NtQueryMultipleValueKey
+NtQueryMutant
+NtQueryObject
+NtQueryOpenSubKeys
+NtQueryPerformanceCounter
+NtQueryPortInformationProcess
+NtQueryQuotaInformationFile
+NtQuerySection
+NtQuerySecurityObject
+NtQuerySemaphore
+NtQuerySymbolicLinkObject
+NtQuerySystemEnvironmentValue
+NtQuerySystemEnvironmentValueEx
+NtQuerySystemInformation
+NtQuerySystemTime
+NtQueryTimer
+NtQueryTimerResolution
+NtQueryValueKey
+NtQueryVirtualMemory
+NtQueryVolumeInformationFile
+NtQueueApcThread
+NtRaiseException
+NtRaiseHardError
+NtReadFile
+NtReadFileScatter
+NtReadRequestData
+NtReadVirtualMemory
+NtRegisterThreadTerminatePort
+NtReleaseKeyedEvent
+NtReleaseMutant
+NtReleaseSemaphore
+NtRemoveIoCompletion
+NtRemoveProcessDebug
+NtRenameKey
+NtReplaceKey
+NtReplyPort
+NtReplyWaitReceivePort
+NtReplyWaitReceivePortEx
+NtReplyWaitReplyPort
+NtRequestDeviceWakeup
+NtRequestPort
+NtRequestWaitReplyPort
+NtRequestWakeupLatency
+NtResetEvent
+NtResetWriteWatch
+NtRestoreKey
+NtResumeProcess
+NtResumeThread
+NtSaveKey
+NtSaveKeyEx
+NtSaveMergedKeys
+NtSecureConnectPort
+NtSetBootEntryOrder
+NtSetBootOptions
+NtSetContextThread
+NtSetDebugFilterState
+NtSetDefaultHardErrorPort
+NtSetDefaultLocale
+NtSetDefaultUILanguage
+NtSetEaFile
+NtSetEvent
+NtSetEventBoostPriority
+NtSetHighEventPair
+NtSetHighWaitLowEventPair
+NtSetInformationDebugObject
+NtSetInformationFile
+NtSetInformationJobObject
+NtSetInformationKey
+NtSetInformationObject
+NtSetInformationProcess
+NtSetInformationThread
+NtSetInformationToken
+NtSetIntervalProfile
+NtSetIoCompletion
+NtSetLdtEntries
+NtSetLowEventPair
+NtSetLowWaitHighEventPair
+NtSetQuotaInformationFile
+NtSetSecurityObject
+NtSetSystemEnvironmentValue
+NtSetSystemEnvironmentValueEx
+NtSetSystemInformation
+NtSetSystemPowerState
+NtSetSystemTime
+NtSetThreadExecutionState
+NtSetTimer
+NtSetTimerResolution
+NtSetUuidSeed
+NtSetValueKey
+NtSetVolumeInformationFile
+NtShutdownSystem
+NtSignalAndWaitForSingleObject
+NtStartProfile
+NtStopProfile
+NtSuspendProcess
+NtSuspendThread
+NtSystemDebugControl
+NtTerminateJobObject
+NtTerminateProcess
+NtTerminateThread
+NtTestAlert
+NtTraceEvent
+NtTranslateFilePath
+NtUnloadDriver
+NtUnloadKey
+NtUnloadKeyEx
+NtUnlockFile
+NtUnlockVirtualMemory
+NtUnmapViewOfSection
+NtVdmControl
+NtWaitForDebugEvent
+NtWaitForKeyedEvent
+NtWaitForMultipleObjects
+NtWaitForSingleObject
+NtWaitHighEventPair
+NtWaitLowEventPair
+NtWriteFile
+NtWriteFileGather
+NtWriteRequestData
+NtWriteVirtualMemory
+NtYieldExecution
+PfxFindPrefix
+PfxInitialize
+PfxInsertPrefix
+PfxRemovePrefix
+PropertyLengthAsVariant
+RtlAbortRXact
+RtlAbsoluteToSelfRelativeSD
+RtlAcquirePebLock
+RtlAcquireResourceExclusive
+RtlAcquireResourceShared
+RtlActivateActivationContext
+RtlActivateActivationContextEx
+RtlActivateActivationContextUnsafeFast
+RtlAddAccessAllowedAce
+RtlAddAccessAllowedAceEx
+RtlAddAccessAllowedObjectAce
+RtlAddAccessDeniedAce
+RtlAddAccessDeniedAceEx
+RtlAddAccessDeniedObjectAce
+RtlAddAce
+RtlAddActionToRXact
+RtlAddAtomToAtomTable
+RtlAddAttributeActionToRXact
+RtlAddAuditAccessAce
+RtlAddAuditAccessAceEx
+RtlAddAuditAccessObjectAce
+RtlAddCompoundAce
+RtlAddRange
+RtlAddRefActivationContext
+RtlAddRefMemoryStream
+RtlAddVectoredExceptionHandler
+RtlAddressInSectionTable
+RtlAdjustPrivilege
+RtlAllocateAndInitializeSid
+RtlAllocateHandle
+RtlAllocateHeap
+RtlAnsiCharToUnicodeChar
+RtlAnsiStringToUnicodeSize
+RtlAnsiStringToUnicodeString
+RtlAppendAsciizToString
+RtlAppendPathElement
+RtlAppendStringToString
+RtlAppendUnicodeStringToString
+RtlAppendUnicodeToString
+RtlApplicationVerifierStop
+RtlApplyRXact
+RtlApplyRXactNoFlush
+RtlAreAllAccessesGranted
+RtlAreAnyAccessesGranted
+RtlAreBitsClear
+RtlAreBitsSet
+RtlAssert
+RtlAssert2
+RtlCancelTimer
+RtlCaptureContext
+RtlCaptureStackBackTrace
+RtlCaptureStackContext
+RtlCharToInteger
+RtlCheckForOrphanedCriticalSections
+RtlCheckProcessParameters
+RtlCheckRegistryKey
+RtlClearAllBits
+RtlClearBits
+RtlCloneMemoryStream
+RtlCommitMemoryStream
+RtlCompactHeap
+RtlCompareMemory
+RtlCompareMemoryUlong
+RtlCompareString
+RtlCompareUnicodeString
+RtlCompressBuffer
+RtlComputeCrc32
+RtlComputeImportTableHash
+RtlComputePrivatizedDllName_U
+RtlConsoleMultiByteToUnicodeN
+RtlConvertExclusiveToShared
+RtlConvertLongToLargeInteger
+RtlConvertPropertyToVariant
+RtlConvertSharedToExclusive
+RtlConvertSidToUnicodeString
+RtlConvertToAutoInheritSecurityObject
+RtlConvertUiListToApiList
+RtlConvertUlongToLargeInteger
+RtlConvertVariantToProperty
+RtlCopyLuid
+RtlCopyLuidAndAttributesArray
+RtlCopyMemoryStreamTo
+RtlCopyOutOfProcessMemoryStreamTo
+RtlCopyRangeList
+RtlCopySecurityDescriptor
+RtlCopySid
+RtlCopySidAndAttributesArray
+RtlCopyString
+RtlCopyUnicodeString
+RtlCreateAcl
+RtlCreateActivationContext
+RtlCreateAndSetSD
+RtlCreateAtomTable
+RtlCreateBootStatusDataFile
+RtlCreateEnvironment
+RtlCreateHeap
+RtlCreateProcessParameters
+RtlCreateQueryDebugBuffer
+RtlCreateRegistryKey
+RtlCreateSecurityDescriptor
+RtlCreateSystemVolumeInformationFolder
+RtlCreateTagHeap
+RtlCreateTimer
+RtlCreateTimerQueue
+RtlCreateUnicodeString
+RtlCreateUnicodeStringFromAsciiz
+RtlCreateUserProcess
+RtlCreateUserSecurityObject
+RtlCreateUserThread
+RtlCustomCPToUnicodeN
+RtlCutoverTimeToSystemTime
+RtlDeNormalizeProcessParams
+RtlDeactivateActivationContext
+RtlDeactivateActivationContextUnsafeFast
+RtlDebugPrintTimes
+RtlDecodePointer
+RtlDecodeSystemPointer
+RtlDecompressBuffer
+RtlDecompressFragment
+RtlDefaultNpAcl
+RtlDelete
+RtlDeleteAce
+RtlDeleteAtomFromAtomTable
+RtlDeleteCriticalSection
+RtlDeleteElementGenericTable
+RtlDeleteElementGenericTableAvl
+RtlDeleteNoSplay
+RtlDeleteOwnersRanges
+RtlDeleteRange
+RtlDeleteRegistryValue
+RtlDeleteResource
+RtlDeleteSecurityObject
+RtlDeleteTimer
+RtlDeleteTimerQueue
+RtlDeleteTimerQueueEx
+RtlDeregisterWait
+RtlDeregisterWaitEx
+RtlDestroyAtomTable
+RtlDestroyEnvironment
+RtlDestroyHandleTable
+RtlDestroyHeap
+RtlDestroyProcessParameters
+RtlDestroyQueryDebugBuffer
+RtlDetermineDosPathNameType_U
+RtlDllShutdownInProgress
+RtlDnsHostNameToComputerName
+RtlDoesFileExists_U
+RtlDosApplyFileIsolationRedirection_Ustr
+RtlDosPathNameToNtPathName_U
+RtlDosSearchPath_U
+RtlDosSearchPath_Ustr
+RtlDowncaseUnicodeChar
+RtlDowncaseUnicodeString
+RtlDumpResource
+RtlDuplicateUnicodeString
+RtlEmptyAtomTable
+RtlEnableEarlyCriticalSectionEventCreation
+RtlEncodePointer
+RtlEncodeSystemPointer
+RtlEnlargedIntegerMultiply
+RtlEnlargedUnsignedDivide
+RtlEnlargedUnsignedMultiply
+RtlEnterCriticalSection
+RtlEnumProcessHeaps
+RtlEnumerateGenericTable
+RtlEnumerateGenericTableAvl
+RtlEnumerateGenericTableLikeADirectory
+RtlEnumerateGenericTableWithoutSplaying
+RtlEnumerateGenericTableWithoutSplayingAvl
+RtlEqualComputerName
+RtlEqualDomainName
+RtlEqualLuid
+RtlEqualPrefixSid
+RtlEqualSid
+RtlEqualString
+RtlEqualUnicodeString
+RtlEraseUnicodeString
+RtlExitUserThread
+RtlExpandEnvironmentStrings_U
+RtlExtendHeap
+RtlExtendedIntegerMultiply
+RtlExtendedLargeIntegerDivide
+RtlExtendedMagicDivide
+RtlFillMemory
+RtlFillMemoryUlong
+RtlFinalReleaseOutOfProcessMemoryStream
+RtlFindActivationContextSectionGuid
+RtlFindActivationContextSectionString
+RtlFindCharInUnicodeString
+RtlFindClearBits
+RtlFindClearBitsAndSet
+RtlFindClearRuns
+RtlFindLastBackwardRunClear
+RtlFindLeastSignificantBit
+RtlFindLongestRunClear
+RtlFindMessage
+RtlFindMostSignificantBit
+RtlFindNextForwardRunClear
+RtlFindRange
+RtlFindSetBits
+RtlFindSetBitsAndClear
+RtlFirstEntrySList
+RtlFirstFreeAce
+RtlFlushSecureMemoryCache
+RtlFormatCurrentUserKeyPath
+RtlFormatMessage
+RtlFreeAnsiString
+RtlFreeHandle
+RtlFreeHeap
+RtlFreeOemString
+RtlFreeRangeList
+RtlFreeSid
+RtlFreeThreadActivationContextStack
+RtlFreeUnicodeString
+RtlFreeUserThreadStack
+RtlGUIDFromString
+RtlGenerate8dot3Name
+RtlGetAce
+RtlGetActiveActivationContext
+RtlGetCallersAddress
+RtlGetCompressionWorkSpaceSize
+RtlGetControlSecurityDescriptor
+RtlGetCurrentDirectory_U
+RtlGetCurrentPeb
+RtlGetDaclSecurityDescriptor
+RtlGetElementGenericTable
+RtlGetElementGenericTableAvl
+RtlGetFirstRange
+RtlGetFrame
+RtlGetFullPathName_U
+RtlGetGroupSecurityDescriptor
+RtlGetLastNtStatus
+RtlGetLastWin32Error
+RtlGetLengthWithoutLastFullDosOrNtPathElement
+RtlGetLengthWithoutTrailingPathSeperators
+RtlGetLongestNtPathLength
+RtlGetNativeSystemInformation
+RtlGetNextRange
+RtlGetNtGlobalFlags
+RtlGetNtProductType
+RtlGetNtVersionNumbers
+RtlGetOwnerSecurityDescriptor
+RtlGetProcessHeaps
+RtlGetSaclSecurityDescriptor
+RtlGetSecurityDescriptorRMControl
+RtlGetSetBootStatusData
+RtlGetUnloadEventTrace
+RtlGetUserInfoHeap
+RtlGetVersion
+RtlHashUnicodeString
+RtlIdentifierAuthoritySid
+RtlImageDirectoryEntryToData
+RtlImageNtHeader
+RtlImageRvaToSection
+RtlImageRvaToVa
+RtlImpersonateSelf
+RtlInitAnsiString
+RtlInitCodePageTable
+RtlInitMemoryStream
+RtlInitNlsTables
+RtlInitOutOfProcessMemoryStream
+RtlInitString
+RtlInitUnicodeString
+RtlInitUnicodeStringEx
+RtlInitializeAtomPackage
+RtlInitializeBitMap
+RtlInitializeContext
+RtlInitializeCriticalSection
+RtlInitializeCriticalSectionAndSpinCount
+RtlInitializeGenericTable
+RtlInitializeGenericTableAvl
+RtlInitializeHandleTable
+RtlInitializeRXact
+RtlInitializeRangeList
+RtlInitializeResource
+RtlInitializeSListHead
+RtlInitializeSid
+RtlInitializeStackTraceDataBase
+RtlInsertElementGenericTable
+RtlInsertElementGenericTableAvl
+RtlInt64ToUnicodeString
+RtlIntegerToChar
+RtlIntegerToUnicodeString
+RtlInterlockedFlushSList
+RtlInterlockedPopEntrySList
+RtlInterlockedPushEntrySList
+RtlInterlockedPushListSList
+RtlInvertRangeList
+RtlIpv4AddressToStringA
+RtlIpv4AddressToStringExA
+RtlIpv4AddressToStringExW
+RtlIpv4AddressToStringW
+RtlIpv4StringToAddressA
+RtlIpv4StringToAddressExA
+RtlIpv4StringToAddressExW
+RtlIpv4StringToAddressW
+RtlIpv6AddressToStringA
+RtlIpv6AddressToStringExA
+RtlIpv6AddressToStringExW
+RtlIpv6AddressToStringW
+RtlIpv6StringToAddressA
+RtlIpv6StringToAddressExA
+RtlIpv6StringToAddressExW
+RtlIpv6StringToAddressW
+RtlIsActivationContextActive
+RtlIsDosDeviceName_U
+RtlIsGenericTableEmpty
+RtlIsGenericTableEmptyAvl
+RtlIsNameLegalDOS8Dot3
+RtlIsRangeAvailable
+RtlIsTextUnicode
+RtlIsThreadWithinLoaderCallout
+RtlIsValidHandle
+RtlIsValidIndexHandle
+RtlLargeIntegerAdd
+RtlLargeIntegerArithmeticShift
+RtlLargeIntegerDivide
+RtlLargeIntegerNegate
+RtlLargeIntegerShiftLeft
+RtlLargeIntegerShiftRight
+RtlLargeIntegerSubtract
+RtlLargeIntegerToChar
+RtlLeaveCriticalSection
+RtlLengthRequiredSid
+RtlLengthSecurityDescriptor
+RtlLengthSid
+RtlLocalTimeToSystemTime
+RtlLockBootStatusData
+RtlLockHeap
+RtlLockMemoryStreamRegion
+RtlLogStackBackTrace
+RtlLookupAtomInAtomTable
+RtlLookupElementGenericTable
+RtlLookupElementGenericTableAvl
+RtlMakeSelfRelativeSD
+RtlMapGenericMask
+RtlMapSecurityErrorToNtStatus
+RtlMergeRangeLists
+RtlMoveMemory
+RtlMultiAppendUnicodeStringBuffer
+RtlMultiByteToUnicodeN
+RtlMultiByteToUnicodeSize
+RtlNewInstanceSecurityObject
+RtlNewSecurityGrantedAccess
+RtlNewSecurityObject
+RtlNewSecurityObjectEx
+RtlNewSecurityObjectWithMultipleInheritance
+RtlNormalizeProcessParams
+RtlNtPathNameToDosPathName
+RtlNtStatusToDosError
+RtlNtStatusToDosErrorNoTeb
+RtlNumberGenericTableElements
+RtlNumberGenericTableElementsAvl
+RtlNumberOfClearBits
+RtlNumberOfSetBits
+RtlOemStringToUnicodeSize
+RtlOemStringToUnicodeString
+RtlOemToUnicodeN
+RtlOpenCurrentUser
+RtlPcToFileHeader
+RtlPinAtomInAtomTable
+RtlPopFrame
+RtlPrefixString
+RtlPrefixUnicodeString
+RtlProtectHeap
+RtlPushFrame
+RtlQueryAtomInAtomTable
+RtlQueryDepthSList
+RtlQueryEnvironmentVariable_U
+RtlQueryHeapInformation
+RtlQueryInformationAcl
+RtlQueryInformationActivationContext
+RtlQueryInformationActiveActivationContext
+RtlQueryInterfaceMemoryStream
+RtlQueryProcessBackTraceInformation
+RtlQueryProcessDebugInformation
+RtlQueryProcessHeapInformation
+RtlQueryProcessLockInformation
+RtlQueryRegistryValues
+RtlQuerySecurityObject
+RtlQueryTagHeap
+RtlQueryTimeZoneInformation
+RtlQueueApcWow64Thread
+RtlQueueWorkItem
+RtlRaiseException
+RtlRaiseStatus
+RtlRandom
+RtlRandomEx
+RtlReAllocateHeap
+RtlReadMemoryStream
+RtlReadOutOfProcessMemoryStream
+RtlRealPredecessor
+RtlRealSuccessor
+RtlRegisterSecureMemoryCacheCallback
+RtlRegisterWait
+RtlReleaseActivationContext
+RtlReleaseMemoryStream
+RtlReleasePebLock
+RtlReleaseResource
+RtlRemoteCall
+RtlRemoveVectoredExceptionHandler
+RtlResetRtlTranslations
+RtlRestoreLastWin32Error
+RtlRevertMemoryStream
+RtlRunDecodeUnicodeString
+RtlRunEncodeUnicodeString
+RtlSecondsSince1970ToTime
+RtlSecondsSince1980ToTime
+RtlSeekMemoryStream
+RtlSelfRelativeToAbsoluteSD
+RtlSelfRelativeToAbsoluteSD2
+RtlSetAllBits
+RtlSetAttributesSecurityDescriptor
+RtlSetBits
+RtlSetControlSecurityDescriptor
+RtlSetCriticalSectionSpinCount
+RtlSetCurrentDirectory_U
+RtlSetCurrentEnvironment
+RtlSetDaclSecurityDescriptor
+RtlSetEnvironmentVariable
+RtlSetGroupSecurityDescriptor
+RtlSetHeapInformation
+RtlSetInformationAcl
+RtlSetIoCompletionCallback
+RtlSetLastWin32Error
+RtlSetLastWin32ErrorAndNtStatusFromNtStatus
+RtlSetMemoryStreamSize
+RtlSetOwnerSecurityDescriptor
+RtlSetProcessIsCritical
+RtlSetSaclSecurityDescriptor
+RtlSetSecurityDescriptorRMControl
+RtlSetSecurityObject
+RtlSetSecurityObjectEx
+RtlSetThreadIsCritical
+RtlSetThreadPoolStartFunc
+RtlSetTimeZoneInformation
+RtlSetTimer
+RtlSetUnicodeCallouts
+RtlSetUserFlagsHeap
+RtlSetUserValueHeap
+RtlSizeHeap
+RtlSplay
+RtlStartRXact
+RtlStatMemoryStream
+RtlStringFromGUID
+RtlSubAuthorityCountSid
+RtlSubAuthoritySid
+RtlSubtreePredecessor
+RtlSubtreeSuccessor
+RtlSystemTimeToLocalTime
+RtlTimeFieldsToTime
+RtlTimeToElapsedTimeFields
+RtlTimeToSecondsSince1970
+RtlTimeToSecondsSince1980
+RtlTimeToTimeFields
+RtlTraceDatabaseAdd
+RtlTraceDatabaseCreate
+RtlTraceDatabaseDestroy
+RtlTraceDatabaseEnumerate
+RtlTraceDatabaseFind
+RtlTraceDatabaseLock
+RtlTraceDatabaseUnlock
+RtlTraceDatabaseValidate
+RtlTryEnterCriticalSection
+RtlUlongByteSwap
+RtlUlonglongByteSwap
+RtlUnhandledExceptionFilter
+RtlUnhandledExceptionFilter2
+RtlUnicodeStringToAnsiSize
+RtlUnicodeStringToAnsiString
+RtlUnicodeStringToCountedOemString
+RtlUnicodeStringToInteger
+RtlUnicodeStringToOemSize
+RtlUnicodeStringToOemString
+RtlUnicodeToCustomCPN
+RtlUnicodeToMultiByteN
+RtlUnicodeToMultiByteSize
+RtlUnicodeToOemN
+RtlUniform
+RtlUnlockBootStatusData
+RtlUnlockHeap
+RtlUnlockMemoryStreamRegion
+RtlUnwind
+RtlUpcaseUnicodeChar
+RtlUpcaseUnicodeString
+RtlUpcaseUnicodeStringToAnsiString
+RtlUpcaseUnicodeStringToCountedOemString
+RtlUpcaseUnicodeStringToOemString
+RtlUpcaseUnicodeToCustomCPN
+RtlUpcaseUnicodeToMultiByteN
+RtlUpcaseUnicodeToOemN
+RtlUpdateTimer
+RtlUpperChar
+RtlUpperString
+RtlUsageHeap
+RtlUshortByteSwap
+RtlValidAcl
+RtlValidRelativeSecurityDescriptor
+RtlValidSecurityDescriptor
+RtlValidSid
+RtlValidateHeap
+RtlValidateProcessHeaps
+RtlValidateUnicodeString
+RtlVerifyVersionInfo
+RtlWalkFrameChain
+RtlWalkHeap
+RtlWriteMemoryStream
+RtlWriteRegistryValue
+RtlZeroHeap
+RtlZeroMemory
+RtlZombifyActivationContext
+RtlpApplyLengthFunction
+RtlpEnsureBufferSize
+RtlpNotOwnerCriticalSection
+RtlpNtCreateKey
+RtlpNtEnumerateSubKey
+RtlpNtMakeTemporaryKey
+RtlpNtOpenKey
+RtlpNtQueryValueKey
+RtlpNtSetValueKey
+RtlpUnWaitCriticalSection
+RtlpWaitForCriticalSection
+RtlxAnsiStringToUnicodeSize
+RtlxOemStringToUnicodeSize
+RtlxUnicodeStringToAnsiSize
+RtlxUnicodeStringToOemSize
+VerSetConditionMask
+ZwAcceptConnectPort
+ZwAccessCheck
+ZwAccessCheckAndAuditAlarm
+ZwAccessCheckByType
+ZwAccessCheckByTypeAndAuditAlarm
+ZwAccessCheckByTypeResultList
+ZwAccessCheckByTypeResultListAndAuditAlarm
+ZwAccessCheckByTypeResultListAndAuditAlarmByHandle
+ZwAddAtom
+ZwAddBootEntry
+ZwAdjustGroupsToken
+ZwAdjustPrivilegesToken
+ZwAlertResumeThread
+ZwAlertThread
+ZwAllocateLocallyUniqueId
+ZwAllocateUserPhysicalPages
+ZwAllocateUuids
+ZwAllocateVirtualMemory
+ZwAreMappedFilesTheSame
+ZwAssignProcessToJobObject
+ZwCallbackReturn
+ZwCancelDeviceWakeupRequest
+ZwCancelIoFile
+ZwCancelTimer
+ZwClearEvent
+ZwClose
+ZwCloseObjectAuditAlarm
+ZwCompactKeys
+ZwCompareTokens
+ZwCompleteConnectPort
+ZwCompressKey
+ZwConnectPort
+ZwContinue
+ZwCreateDebugObject
+ZwCreateDirectoryObject
+ZwCreateEvent
+ZwCreateEventPair
+ZwCreateFile
+ZwCreateIoCompletion
+ZwCreateJobObject
+ZwCreateJobSet
+ZwCreateKey
+ZwCreateKeyedEvent
+ZwCreateMailslotFile
+ZwCreateMutant
+ZwCreateNamedPipeFile
+ZwCreatePagingFile
+ZwCreatePort
+ZwCreateProcess
+ZwCreateProcessEx
+ZwCreateProfile
+ZwCreateSection
+ZwCreateSemaphore
+ZwCreateSymbolicLinkObject
+ZwCreateThread
+ZwCreateTimer
+ZwCreateToken
+ZwCreateWaitablePort
+ZwDebugActiveProcess
+ZwDebugContinue
+ZwDelayExecution
+ZwDeleteAtom
+ZwDeleteBootEntry
+ZwDeleteFile
+ZwDeleteKey
+ZwDeleteObjectAuditAlarm
+ZwDeleteValueKey
+ZwDeviceIoControlFile
+ZwDisplayString
+ZwDuplicateObject
+ZwDuplicateToken
+ZwEnumerateBootEntries
+ZwEnumerateKey
+ZwEnumerateSystemEnvironmentValuesEx
+ZwEnumerateValueKey
+ZwExtendSection
+ZwFilterToken
+ZwFindAtom
+ZwFlushBuffersFile
+ZwFlushInstructionCache
+ZwFlushKey
+ZwFlushVirtualMemory
+ZwFlushWriteBuffer
+ZwFreeUserPhysicalPages
+ZwFreeVirtualMemory
+ZwFsControlFile
+ZwGetContextThread
+ZwGetDevicePowerState
+ZwGetPlugPlayEvent
+ZwGetWriteWatch
+ZwImpersonateAnonymousToken
+ZwImpersonateClientOfPort
+ZwImpersonateThread
+ZwInitializeRegistry
+ZwInitiatePowerAction
+ZwIsProcessInJob
+ZwIsSystemResumeAutomatic
+ZwListenPort
+ZwLoadDriver
+ZwLoadKey
+ZwLoadKey2
+ZwLockFile
+ZwLockProductActivationKeys
+ZwLockRegistryKey
+ZwLockVirtualMemory
+ZwMakePermanentObject
+ZwMakeTemporaryObject
+ZwMapUserPhysicalPages
+ZwMapUserPhysicalPagesScatter
+ZwMapViewOfSection
+ZwModifyBootEntry
+ZwNotifyChangeDirectoryFile
+ZwNotifyChangeKey
+ZwNotifyChangeMultipleKeys
+ZwOpenDirectoryObject
+ZwOpenEvent
+ZwOpenEventPair
+ZwOpenFile
+ZwOpenIoCompletion
+ZwOpenJobObject
+ZwOpenKey
+ZwOpenKeyedEvent
+ZwOpenMutant
+ZwOpenObjectAuditAlarm
+ZwOpenProcess
+ZwOpenProcessToken
+ZwOpenProcessTokenEx
+ZwOpenSection
+ZwOpenSemaphore
+ZwOpenSymbolicLinkObject
+ZwOpenThread
+ZwOpenThreadToken
+ZwOpenThreadTokenEx
+ZwOpenTimer
+ZwPlugPlayControl
+ZwPowerInformation
+ZwPrivilegeCheck
+ZwPrivilegeObjectAuditAlarm
+ZwPrivilegedServiceAuditAlarm
+ZwProtectVirtualMemory
+ZwPulseEvent
+ZwQueryAttributesFile
+ZwQueryBootEntryOrder
+ZwQueryBootOptions
+ZwQueryDebugFilterState
+ZwQueryDefaultLocale
+ZwQueryDefaultUILanguage
+ZwQueryDirectoryFile
+ZwQueryDirectoryObject
+ZwQueryEaFile
+ZwQueryEvent
+ZwQueryFullAttributesFile
+ZwQueryInformationAtom
+ZwQueryInformationFile
+ZwQueryInformationJobObject
+ZwQueryInformationPort
+ZwQueryInformationProcess
+ZwQueryInformationThread
+ZwQueryInformationToken
+ZwQueryInstallUILanguage
+ZwQueryIntervalProfile
+ZwQueryIoCompletion
+ZwQueryKey
+ZwQueryMultipleValueKey
+ZwQueryMutant
+ZwQueryObject
+ZwQueryOpenSubKeys
+ZwQueryPerformanceCounter
+ZwQueryPortInformationProcess
+ZwQueryQuotaInformationFile
+ZwQuerySection
+ZwQuerySecurityObject
+ZwQuerySemaphore
+ZwQuerySymbolicLinkObject
+ZwQuerySystemEnvironmentValue
+ZwQuerySystemEnvironmentValueEx
+ZwQuerySystemInformation
+ZwQuerySystemTime
+ZwQueryTimer
+ZwQueryTimerResolution
+ZwQueryValueKey
+ZwQueryVirtualMemory
+ZwQueryVolumeInformationFile
+ZwQueueApcThread
+ZwRaiseException
+ZwRaiseHardError
+ZwReadFile
+ZwReadFileScatter
+ZwReadRequestData
+ZwReadVirtualMemory
+ZwRegisterThreadTerminatePort
+ZwReleaseKeyedEvent
+ZwReleaseMutant
+ZwReleaseSemaphore
+ZwRemoveIoCompletion
+ZwRemoveProcessDebug
+ZwRenameKey
+ZwReplaceKey
+ZwReplyPort
+ZwReplyWaitReceivePort
+ZwReplyWaitReceivePortEx
+ZwReplyWaitReplyPort
+ZwRequestDeviceWakeup
+ZwRequestPort
+ZwRequestWaitReplyPort
+ZwRequestWakeupLatency
+ZwResetEvent
+ZwResetWriteWatch
+ZwRestoreKey
+ZwResumeProcess
+ZwResumeThread
+ZwSaveKey
+ZwSaveKeyEx
+ZwSaveMergedKeys
+ZwSecureConnectPort
+ZwSetBootEntryOrder
+ZwSetBootOptions
+ZwSetContextThread
+ZwSetDebugFilterState
+ZwSetDefaultHardErrorPort
+ZwSetDefaultLocale
+ZwSetDefaultUILanguage
+ZwSetEaFile
+ZwSetEvent
+ZwSetEventBoostPriority
+ZwSetHighEventPair
+ZwSetHighWaitLowEventPair
+ZwSetInformationDebugObject
+ZwSetInformationFile
+ZwSetInformationJobObject
+ZwSetInformationKey
+ZwSetInformationObject
+ZwSetInformationProcess
+ZwSetInformationThread
+ZwSetInformationToken
+ZwSetIntervalProfile
+ZwSetIoCompletion
+ZwSetLdtEntries
+ZwSetLowEventPair
+ZwSetLowWaitHighEventPair
+ZwSetQuotaInformationFile
+ZwSetSecurityObject
+ZwSetSystemEnvironmentValue
+ZwSetSystemEnvironmentValueEx
+ZwSetSystemInformation
+ZwSetSystemPowerState
+ZwSetSystemTime
+ZwSetThreadExecutionState
+ZwSetTimer
+ZwSetTimerResolution
+ZwSetUuidSeed
+ZwSetValueKey
+ZwSetVolumeInformationFile
+ZwShutdownSystem
+ZwSignalAndWaitForSingleObject
+ZwStartProfile
+ZwStopProfile
+ZwSuspendProcess
+ZwSuspendThread
+ZwSystemDebugControl
+ZwTerminateJobObject
+ZwTerminateProcess
+ZwTerminateThread
+ZwTestAlert
+ZwTraceEvent
+ZwTranslateFilePath
+ZwUnloadDriver
+ZwUnloadKey
+ZwUnloadKeyEx
+ZwUnlockFile
+ZwUnlockVirtualMemory
+ZwUnmapViewOfSection
+ZwVdmControl
+ZwWaitForDebugEvent
+ZwWaitForKeyedEvent
+ZwWaitForMultipleObjects
+ZwWaitForSingleObject
+ZwWaitHighEventPair
+ZwWaitLowEventPair
+ZwWriteFile
+ZwWriteFileGather
+ZwWriteRequestData
+ZwWriteVirtualMemory
+ZwYieldExecution
+_CIcos
+_CIlog
+_CIpow
+_CIsin
+_CIsqrt
+__isascii
+__iscsym
+__iscsymf
+__toascii
+_alldiv
+_alldvrm
+_allmul
+_alloca_probe
+_allrem
+_allshl
+_allshr
+_atoi64
+_aulldiv
+_aulldvrm
+_aullrem
+_aullshr
+_chkstk
+_fltused
+_ftol
+_i64toa
+_i64tow
+_itoa
+_itow
+_lfind
+_ltoa
+_ltow
+_memccpy
+_memicmp
+_snprintf
+_snwprintf
+_splitpath
+_strcmpi
+_stricmp
+_strlwr
+_strnicmp
+_strupr
+_tolower
+_toupper
+_ui64toa
+_ui64tow
+_ultoa
+_ultow
+_vsnprintf
+_vsnwprintf
+_wcsicmp
+_wcslwr
+_wcsnicmp
+_wcsupr
+_wtoi
+_wtoi64
+_wtol
+atan
+atoi
+atol
+bsearch
+ceil
+fabs
+floor
+isalnum
+isalpha
+iscntrl
+isdigit
+isgraph
+islower
+isprint
+ispunct
+isspace
+isupper
+iswalpha
+iswctype
+iswdigit
+iswlower
+iswspace
+iswxdigit
+isxdigit
+labs
+mbstowcs
+memchr
+memcmp
+memcpy
+memmove
+memset
+qsort
+sprintf
+sqrt
+sscanf
+strcat
+strchr
+strcmp
+strcpy
+strcspn
+strlen
+strncat
+strncmp
+strncpy
+strpbrk
+strrchr
+strspn
+strstr
+strtol
+strtoul
+swprintf
+tolower
+toupper
+towlower
+towupper
+vDbgPrintEx
+vDbgPrintExWithPrefix
+vsprintf
+wcscat
+wcschr
+wcscmp
+wcscpy
+wcscspn
+wcslen
+wcsncat
+wcsncmp
+wcsncpy
+wcspbrk
+wcsrchr
+wcsspn
+wcsstr
+wcstol
+wcstombs
+wcstoul
+t[Yj
+D$d
+^[_3
+^_[3
+Y_^[
+SVWU
+tYVU
+t?xH
+]_^[
+SVWUj
+]_^[
+;t$(v(
+R9Q
+kUQPXY]Y[
+^_[]
+:!A!B!C!D!E!F!G!H!I!2
+Q!R!S!T!]!c!d!e!m!w
+|[^_]
+Actx 
+F+F
+jh8
+SVW3
+|u9
+jh8
+t+!E
+9MZu
+GGBBf
+_^[]
+;G r
+jhx
+QQSV
+;p$s
+A@;AD
+;uw
+_[^]
+B;HD
+f;2w
+F@;FH
+;]r
+QQVj
+QSVW
+uQf
+jd[+
+F^[
+_^[]
+@P9u
+P9U
+O+M
+@ONu
+3H$f
+F ^[]
+_^[]
+FFGGf;
+;ur
+AABBf
+RtlLockHeap
+RtlUnlockHeap
+BBFFf
+Pj$j
+_^[]
+j\Zf;
+QQSV
+tf=:
+j\[j
+t_II
+3GGCCf;
+^_[]
+|f9H
+|f9H
+MHH;
+r=Wf
+>%ti
+KKFF3
+GG@@;
+|f9>t
+u?f9>
+uNNf
+_^[s
+VWtX
+f;F
+UtD
+f;F
+_^[]
+} =|
+PSWj
+MSVW
+MwO
+9}v
+_^[]
+QQSVW3
+#EY
+?SsHd
+>SsHd
+ES3
+t4f9
+Ph,W
+@09X
+RPQj
+f9>t
+VWt3f
+t}AAf=\
+|WWW
+@;Eu
+;Eu
+[_^]
+Refcount
+@0WS
+FFCC3
+@0Vj
+PSSS
+f9~8u
+Derefcount
+EPSj
+_^[]
+uPj
+@0Qj
+TSVWd
+@;Eu0
+FFBBf
+9^t
+w$WPV
+_^[]
+M9H
+EPj
+)C(
+F,;~
+_^[]
+}VW
+_^[]
+N,;~
+CL_^[
++GHS;
+@NOf
+uW3
+|0123456789ABCDEF
+tLf=0
+r2f=9
+0;Es5
+t)Of
+|f=A
+QSVWd
+f9~2
+jDhh
+f9~:
+j,hX
+jlh 
+u2GG@@
+QVWd
+E +E
+E +E
+~8Sf
+jh(
+Refcount
+BBFFf
+Wj _
+CSPj
+r8f=Z
+H w/3
+vfBBFF
+.t`f
+?tZ3
+t'9M
+RPWS
+j,hh
+uW3
+_^[]
+w[Sd
+;Ms
+Derefcount
+AAFFf
+j hP
+ (8PX
+700WP
+`h````
+ppxxxx
+WSj0
+ESf
+G@SV
+@@t
+PSSS
+^48]
+AAf=\
+Ef=
+_^[]
+HD_^]
+SVWd
+j hx
+NHQPW
+|;H$
+us8]
+PjPS
+@@f+
+tq9]
+@09X
+f;Zt
+ES3
+ES3
+@\f=
+9\tf
+D8j
+secserv.dll
+.aspack
+.pcle
+.sforce
+Pjj
+;HTr
+;HPs
+US3
+sf;]
+0f;u
+u,f9]
+uX9]
+|uHf9]
+=f9]
+2f9]
+|f9]
+@0VS
+f9X:
+PSSS
+tT9]
+SVWtA
+xP9_
+tK8]tl
+8]t
+p,j@Y;
+j h(
+9^(t W
+^._V
+@0Vj
+t79^
+_^[]
+H0If
+_^[]
+AAf
+VW3
+tL9}
+_Wj5
+|Wj5
+SXS: Assembly storage resolution trying %Id roots (-1 is ok)
+SXS: Storage resolution for root number %lu returned blank root; skipping probing logic and moving to next.
+SXS: Getting assembly storage root #%Iu
+|Wj5
+SXS: Assembly storage map probing root %wZ for assembly directory %wZ
+SXS: Found good storage root for %wZ at index %Iu
+CPh
+|zj@[9]
+8MZu`
+$$SV
+tF9}
+tA9}
+}$u0
+uWj
+F0:s
+9Mt
+A;Mu
+9}t
+G;}u
+^[_]
+PWj 
+CSVh@
+]VW
+_^[]
+SXS: RtlCreateActivationContext() called with parameters:
+   Flags = 0x%08lx
+   ActivationContextData = %p
+   ExtraBytes = %lu
+   NotificationRoutine = %p
+   NotificationContext = %p
+   ActCtx = %p
+>ActxW
+_^[]
+SXS: Activation context data at %p has invalid TOC header offset
+SXS: Activation context data at %p has invalid assembly roster offset
+@@PQ
+tDSV
+_^[]
+^,^[]
+St/+
+t1GGf
+]SV
+jS
+WWWWh(
+PWWW
+Pj"j
+uq9]tl
+jY3
+tJf9w0
+|j(_W
+f90u
+@0Vj
+@\f=
+WWWf
+|BaseProcessInitPostImport
+BaseQueryModuleData
+Uf@
+B\^]
+F2^f
+f92t*
+P$f92
+H []
+PSSSSSSSj
+PVh4
+v.SV
+QQVW
+BoG_ *90.0&!!  Yy>
+stxt371
+.txt
+.txt2
+Pj%j
+j,hH7
+|9] 
+AAQP
+E,f9
+f9~:
+)Mj
+PVVV
+ VhnK
+SE_InstallBeforeInit
+SE_InstallAfterInit
+SE_DllLoaded
+SE_DllUnloaded
+SE_GetProcAddress
+SE_ProcessDying
++t%3
+H_^]
+_^[]
+Mth9
+_^[]
+Etj
+jY3
+A%}
+0;M
+@0;p
+_^[]
+JFf
+;Ur
+9E_
+^_[]
+^_[]
+FVhh
+u=Vh
+u*Vh
+Vh$h
+u>9u
+tUf==
+f97t
+f90u
+AABB
+Hf=a
+r.f=z
+QQSV
+j hXu
+@0Vj
+|u9
+Vhiu
+_[^]
+j h(y
+QQSVW3
+ES;
+Mw*+
+M)Q
+tnSVW3
+_^[]
+ue9V
+tYSW
+_^[]
+f958
+_^[]
+F;pd^
+8Atomu
+FSP
+@0Vj
+O+O
+G@SV
+HHtxHHtt
+WVj0
+RPWS
+A@t
+?GsHd
+;GsHd
+ujNf
+MS3
+(t'Ht$-
+f98j
+ZtUf
+j0Y+
+Of=!
+QQSVW
+@0SV
+}Sj
+Hf=A
+SVW3
+@$j@
+QQVW
+@0WS
+SVWd
+@0AAQ3
+_^[]
+SVWt+
+o;G\
+WjGY3
+E@S
+t><0
+t%HHf
+hAtmA
+hAtmT
+Atom
+Ef=
+Mf9H
+4SV3
+SV3
+9E_
+[^_]
+f%0(f
+_^[]
+WWVh
+@0Vj
+_^[]
+t-9?
+u-PSVh
+6_^[]
+PSVh
+_^[]
+@0Vj
+@0Vj
+uWQ
+^_[]
+t296
+PSVh
+E  u
+@0jLj
+PSVh
+;:wh
+H_t!H
+@@FF
+MQP
+@0jLj
+VWt/
+FGHu
+_[^]
+@0jLj
+8f99
+[_^]
+IFF;
+Gf99r#
+f99v
+PSVj
+PSSj
+EPj
+$SVW3
+;Er
+;Er
+s9WS
+v)+u
+vWV
+$$+u
+vxWV
+EPj
+PWVj
+|R8]
+PWVj
+EPj
+QSWWS
+|u$j
+|PjW
+LdrLoadDll
+LDR: %s - failing because LdrpLoadDll(%wZ) returned status %x
+$PVh
+|SjW
+LdrpLoadDll
+LDR: %s - Exception %08lx thrown running initialization routines for %wZ
+@_^[
+LdrpLoadDll
+8uq8
+|uij
+uWhZ
+|QjW
+|uJ8
+|uBj
+|QjW
+^@[]
+LDR: exception %08lx thrown within function %s
+   Exception record: %p
+   Context record: %p
+   Context->Eip = %p
+   Context->Ebp = %p
+   Context->Esp = %p
+PSSS
+H QP
+B4_]
+QPPP
+PSSS
+8]S
+PSSS
+8] u
+ t.j
+|4SW
+csrsrv
+CsrCallServerFromServer
+@$VV
+jPh 
+PSSS
+tt9]to
+SVWt3
+_^[]
+@@II
+3q$3
+3S$3
+u9;U
+;8uC
+0VW3
+j$hh-
+wvx
+|0SW
+MQPPP
+VWt 9]
+_^[]
+@0jj
+9Es7
+89}
+WVj0P
+ut!
+Refcount
+_CorValidateImage
+_CorImageUnloading
+|_CorExeMain
+<P.tgB;
+SSSSPW
+EPj
+EPj
+9]u
+M9]
+N|.8]
+Zj Y
+jh0B
+ES3
+PSSj
+PSSj
+uSR
+uS3
+u#9}$
+SVWd
+uDWj
+ULu!
+E7PV
+|H8]
+N!H
+PSSj
+8ESV
+E<PS
+VWwq<
+@!E
+VWu0
+USV
+r*f=:
+Yt%;E
+SVW3
+@0j<j
+F4Vh^[
+Pj"j
+@0VS
+YYu>
++t2W3
+@0j 
+RtlpSerializeHeap
+PhHc
+Phhc
+CLIENT(ntdll): Found CheckAppHelp = %d for %wZ in ImageFileExecutionOptions
+CLIENT(ntdll): Found ExecuteOptions = %ws for %wZ in application compatibility database
+CLIENT(ntdll): Found Execute=1, turning off execution protection for the process because of %wZ
+9}|J
+t99M
+u49N
+E_^[
+@f9E
+EPj
+|u(j 
+PPVh
+QSVW
+@0VS
+PVSj
+}9U
+@0Sj
+EPj
+Refcount
+|;H$
+tmHt
+|Ah@
+|+VV
+QQSV3
+PSSS
+YteV
+F@u';
+|9= 
+uSV
+PSVj
+N ;HP
+FFGGf;
+_^[]
+90tL
+\tf
+_^[]
+@0jLj
+VWhl
+QSWh
+48GGf;
+YYt&
+r)GG
+VWrP<
+9EsC
+F;u
+N,;H$
+N,;H$
+uWf
+BBFF
+SVW
+9;U
+9;U
+9;U
+9;U
+9;U
+9;U
+9;U
+tu;}tp
+wU;}
+9;Uw
+t*f% 
+L$VW
+QZ^&
+x_^[
+G,Ph
+LDR: Tls Found in %wZ at %p
+u9=,
+HEAP[%wZ]: 
+Invalid flags (%08x) specified to RtlCreateHeap
+LDR: LdrpWalkImportDescriptor() failed to probe %wZ for its manifest, ntstatus 0x%08lx
+|PjW
+p h`
+F,Ph
+p hP
+|RjW
+LdrpRunInitializeRoutines
+LDR: %s - failed to allocate dynamic array of %u DLL initializers to run
+[%x,%x] LDR: Real INIT LIST for process %wZ pid %u 0x%x
+[%x,%x]    %wZ init routine %p
+LDR: %wZ loaded.
+ - About to call init routine at %p
+[%x,%x] LDR: %wZ loaded
+ - Calling init routine at %p
+[%x,%x] LDR: calling init routine %p for DLL_PROCESS_ATTACH
+[%x,%x] LDR: DLL_PROCESS_ATTACH for dll "%wZ" (InitRoutine: %p) failed
+|PjW
+|PjW
+LdrpSnapIAT
+LdrpSnapIAT
+LDR: %s - caught exception %08lx snapping thunks (#1)
+LdrpSnapIAT
+LdrpSnapIAT
+LDR: %s - caught exception %08lx snapping thunks (#2)
+p hH
+|t<d
+p ht
+[%lx,%lx] LDR: Recursive DLL load
+[%lx,%lx]   Previous DLL being loaded: "%wZ"
+[%lx,%lx]   DLL being requested: "%wZ"
+[%lx,%lx]   DLL whose initializer was currently running: "%wZ"
+[%lx,%lx]   No DLL initializer was running
+QPSh
+LDR: TlsVector %x Index %d = %x copied from %x to %x
+VPWh
+PWh 
+|PjW
+LDR: Tls Callbacks Found. Imagebase %p Tls %p CallBacks %p
+LDR: Calling Tls Callback Imagebase %p Function %p
+LdrpCallTlsInitializers
+LdrpCallTlsInitializers
+LDR: %s - caught exception %08lx calling TLS callbacks
+;E s~
+HEAP[%wZ]: 
+Failed to initialize a new segment (%x)
+HEAP[%wZ]: 
+Abandoning uncommitted range (%x for %x)
+u9=,
+u95,
+,Ph:
+HEAP[%wZ]: 
+Failing creating uncommitted range (%x for %x)
+9Ms
+\tf
+.txt
+.txt2
+CLIENT(ntdll): Processing %ws for patching section protection for %wZ
+CLIENT(ntdll): Processing section info %ws...
+SVW
+It=I
+\t:f
+/t4f
+#HHf
+|PjW
+LDR: LdrGetProcedureAddress by 
+NAME - %s
+ORDINAL - %lx
+LdrpGetProcedureAddress
+LdrpGetProcedureAddress
+LDR: %s - Exception %x thrown by LdrpRunInitializeRoutines
+|SjW
+LdrVerifyImageMatchesChecksum
+LdrVerifyImageMatchesChecksum
+LDR: %s - caught exception %08lx while checking image checksums
+LdrpSendDllUnloadedNotifications
+LdrpSendDllLoadedNotifications
+|PjW
+LdrLockLoaderLock
+LdrLockLoaderLock
+LDR: %s - Caught exception %08lx
+LdrUnlockLoaderLock
+LdrEnumerateLoadedModules
+|PSh 
+LDR: LdrGetDllHandle, searching for %ws from %ws
+p0hD
+|PjW
+|PjW
+|PjW
+LDR: UNINIT LIST
+          (%d) [%ws] %ws (%lx) deinit %lx
+LDR: Unmapping [%ws]
+LDR: Calling deinit %lx
+LdrUnloadDll
+LdrUnloadDll
+LDR: %s - exception %08lx caught while sending DLL_PROCESS_DETACH
+   Dll Name: %wZ
+   InitRoutine: %p
+[PVVh
+|SjW
+|PjW
+LdrpLoadDll
+LDR: %s - Dll name missing extension; with extension added the length is too long
+   DllName: (@ %p) "%wZ"
+   DllName->Length: %u
+LDR: LdrLoadDll, loading %ws from %ws
+LdrpLoadDll
+LdrpLoadDll
+LDR: %s - Exception %x thrown by LdrpWalkImportDescriptor
+LDR: Unloading %wZ due to error %x walking import descriptors
+LDR: Unloading %wZ because either its init routine or one of its static imports failed; status = 0x%08lx
+PSSS
+AddDrz
+PSSS
+PSSS
+PSSS
+PSSS
+|n9u
+PWVj
+@0Vj
+LDR: failed to load mscoree.dll, status=%x
+PWh|
+Pj"j
+SWh<
+SWhX
+LDR: PID: 0x%x finished - '%wZ'
+LdrQueryApplicationCompatibilityGoo
+LdrQueryApplicationCompatibilityGoo
+LdrQueryApplicationCompatibilityGoo
+|VjW
+^Wht
+|PjW
+|PjW
+|PjW
+|PjW
+$Ph|
+|QjW
+|PjW
+|PjW
+|WjW
+|PjW
++A4P
+|PjW
+Pj"j
+|PjW
+^WhP
+|VjW
+LdrpInitializeProcess
+LDR: %s - failing because we were unable to map the image base address (%p) to the PIMAGE_NT_HEADERS
+LDR: PID: 0x%x started - '%wZ'
+LDR: Stack trace database size is %u Mb 
+LdrpInitializeProcess
+LDR: %s - unable to create process heap
+LdrpInitializeProcess
+LDR: %s failing process initialization due to inability to create loader private heap.
+LdrpInitializeProcess
+LDR: %s - failed call to NtQuerySymbolicLinkObject with status %x
+LdrpInitializeProcess
+LDR: %s - unable to allocate current working directory buffer
+LdrpInitializeProcess
+LDR: %s - failed to allocate PEB_LDR_DATA
+LdrpInitializeProcess
+LDR: %s - failing process initialization due to inability allocate "%wZ"'s LDR_DATA_TABLE_ENTRY
+LdrpInitializeProcess
+LDR: %s - failing process initialization due to inability to allocate NTDLL's LDR_DATA_TABLE_ENTRY
+LDR: NEW PROCESS
+     Image Path: %wZ (%wZ)
+     Current Directory: %wZ
+     Search Path: %wZ
+LdrpInitializeProcess
+LDR: %s - unable to set current directory to "%wZ"; status = %x
+LdrpInitializeProcess
+LDR: %s - unable to set current directory to NtSystemRoot; status = %x
+LdrpInitializeProcess
+LDR: %s - unable to allocate heap for the image's .local path
+LDR: Unable to load kernel32.dll.  Status=%x
+LDR: Failed to find post-import process init function in kernel32; ntstatus 0x%08lx
+LDR: Failed to find BaseQueryModuleData in kernel32; ntstatus 0x%08lx
+LdrpInitializeProcess
+LDR: %s - call to LdrpWalkImportDescriptor failed with status %x
+LdrpInitializeProcess
+LDR: %s - call to LdrpSetProtection(%p, FALSE, TRUE) failed with status %x
+LdrpInitializeProcess
+LDR: %s - call to LdrRelocateImage failed with status %x
+LdrpInitializeProcess
+LDR: %s - call to LdrpSetProtection(%p, TRUE, TRUE) failed with status %x
+LdrpInitializeProcess
+LDR: %s - failed to initialize TLS slots; status %x
+LdrpInitializeProcess
+LDR: %s - Failed running kernel32 post-import function; status 0x%08lx
+LdrpInitializeProcess
+LDR: %s - Failed running initialization routines; status %x
+LdrpInitializeProcess
+LDR: %s - failed call to NtOpenSymbolicLinkObject with status %x
+|QjW
+[Wh|
+|SjW
+|PjW
+_LdrpInitialize
+LDR: ***NONFATAL*** %s - call to NtDelayExecution waiting on loader lock failed; ntstatus = %x
+_LdrpInitialize
+LDR: %s - Call to NtQueryVirtualMemory failed with ntstaus %x
+_LdrpInitialize
+LDR: %s - call to LdrpInitializeProcess() failed with ntstatus %x
+|PWh
+|PjW
+LDR: Failing LdrpCheckForLoadedDll because redirected DLL name %wZ does not include a slash
+LDR: LdrpCheckForLoadedDll - Unable To Locate 
+%ws from %ws
+LDR: LdrpCheckForLoadedDll - Failing load of 
+%wZ from %ws
+ because path search required %u bytes
+LDR: LdrpCheckForLoadedDll - Failing load of %wZ because we could not dynamically allocate its full dll path buffer
+LDR: LdrpCheckForLoadedDll - Failing load of %wZ because searching path into dynamic buffer failed; buffer size: returned length: %lu
+LdrpCheckForLoadedDll
+LdrpCheckForLoadedDll
+LDR: %s - Caught exception %08lx
+LdrpCreateDllSection
+LDR: %s - NtOpenFile failed; status = %x
+LDR: Loading of (%wZ) blocked by WinSafer
+Derefcount
+LDR: %s %wZ (%lx)
+LDR: %s %wZ (%lx)
+Derefcount
+LDR: %s %wZ (%lx)
+LDR: %s %wZ (%lx)
+|SjW
+LdrpResolveDllNameForAppPrivateRedirection
+LDR: %s call to RtlComputePrivatizedDllName_U() failed with status %lx
+LdrpResolveDllNameForAppPrivateRedirection
+LDR: %s calling LdrpCopyUnicodeString() failed; exiting with status %lx
+LdrpResolveDllNameForAppPrivateRedirection
+LDR: %s calling LdrpCopyUnicodeString() failed; exiting with status %lx
+M Qj
+Unknown
+[Ph|
+|SjW
+|PjW
+|SjW
+QPhP
+|h4
+|SjW
+|PjW
+|SjW
+|SjW
+LdrpResolveDllName
+LDR: %s failed calling LdrpResolveDllNameForAppPrivateRediretion with status %lx
+LdrpResolveDllName
+LDR: %s failed call to LdrpCopyUnicodeString() in redirected case; status = %lx
+LdrpResolveDllName
+LDR: %s - call to RtlDosSearchPath_U failed
+   DllName: "%ws"
+   Path: "%ws"
+LDR: LdrResolveDllName - Failing resolution because found path too long (%u bytes; max is %u bytes)
+LdrpResolveDllName
+LDR: %s - failed to allocate string for full dll name; length requested: %u
+LdrpResolveDllName
+LDR: %s - call to RtlDosSearchPath_U failed
+   DllName: "%ws"
+   Path: "%ws"
+LdrpResolveDllName
+LDR: %s - Required path length required for %ws changed from %lu to %lu; try launching the app again.
+LdrpResolveDllName
+LDR: %s - failing because RtlFindCharInUnicodeString failed with status %x
+|PjW
+WVhH
+RPQh
+|PjW
+|PjW
+|PjW
+|RjW
+p h4
+|RjW
+LdrpMapDll
+LDR: %s - call back to app compat redirection function @ %p (cb data: %p) failed with status %x
+LdrpMapDll
+LDR: %s - call to LdrpCheckForKnownDll("%ws", ...) failed with status %x
+LdrpMapDll
+LDR: %s - call to LdrpResolveDllName on dll "%ws" failed with status %x
+STATIC
+DYNAMIC
+REDIRECTED
+NON_REDIRECTED
+LDR: Loading (%s, %s) %wZ
+LdrpMapDll
+LDR: %s - call to RtlDosPathNameToNtPathName_U on path "%wZ" failed; returning status %x
+LdrpMapDll
+LDR: %s - LdrpCreateDllSection (%wZ) failed with status %x
+LdrpMapDll
+LDR: %s - failed to map view of section; status = %x
+LdrpMapDll
+LDR: %s - unable to map ViewBase (%p) to image headers; failing with status %x
+LdrpMapDll
+LDR: %s - failed to allocate new data table entry for %p
+LdrpMapDll
+[%x,%x] LDR: Failed to map view of section; ntstatus = %x
+LDR: Fixups unsuccessfully re-applied @ %p
+LDR: Fixups successfully re-applied @ %p
+LdrpMapDll
+[%x,%x] LDR: %s - NtMapViewOfSection on no reloc needed dll failed with status %x
+LDR: Fixups won't be re-applied to non-Dll @ %p
+LdrpLoadImportModule
+LDR: %s - RtlDosApplyFileIsolationRedirection_Ustr failed with status %x
+LdrpLoadImportModule
+LDR: %s - LdrpMapDll(%p, %ls, NULL, TRUE, %d, %p) failed with status %x
+LdrpLoadImportModule
+LDR: %s - LdrpWalkImportDescriptor [dll %ls]  failed with status %x
+F,Ph
+F,PhF
+F,Phj
+F,Ph
+F,Ph
+F,Ph
+F,PWhn
+LDR: %wZ bound to %s
+LDR: %wZ failed to load import module %s; status = %x
+LDR: %wZ has correct binding to %s
+LDR: %wZ has stale binding to %s
+LDR: %wZ bound to %s via forwarder(s) from %wZ
+LDR: %wZ has correct binding to %s
+LDR: %wZ has stale binding to %s
+LDR: LdrpWalkImportTable - failing with STATUS_OBJECT_NAME_INVALID due to no import descriptor name
+LDR: Stale Bind %s from %wZ
+LDR: LdrpWalkImportTable - LdrpSnapIAT failed with status %x
+C,PVh@
+PVhX
+C,Ph
+LDR: %s used by %wZ
+LDR: LdrpWalkImportTable - LdrpLoadImportModule failed on import %s with status %x
+LDR: Snapping imports for %wZ from %s
+LDR: LdrpWalkImportTable - LdrpSnapIAT #2 failed with status %x
+|;H$
+***Exception thrown within loader***
+Break repeatedly, break Once, Ignore, terminate Process or terminate Thread (boipt)? 
+Execute '.cxr %p' to dump context
+RPShr
+@\f=
+RTL: Acquire Shared Sem Timeout %d(%I64u secs)
+RTL: Resource at %p
+RTL: Re-Waiting
+@\f=
+RTL: Acquire Exclusive Sem Timeout %d (%I64u secs)
+RTL: Resource at %p
+RTL: Re-Waiting
+N,;H$
+Vh\"
+@\f=
+N,;H$
+RTL: Convert Exclusive Sem Timeout %d (%I64u secs)
+RTL: Resource at %p
+RTL: Re-Waiting
+F(HP
+RPhB$
+p hz$
+|tOd
+@\f=
+RTL: Enter Critical Section Timeout (%I64u secs) %d
+RTL: Pid.Tid %x.%x, owner tid %x Critical Section %p - ContentionCount == %lu
+RTL: Re-Waiting
+|Vh '
+|Wh<'
+}2hh'
+|Wh((
+vhD(
+|Wh )
+t5hT)
+Initialization stack trace. Use dds to dump it if non-NULL.
+Critical section debug info address
+Critical section address
+undeleted critical section in freed memory
+Initialization stack trace. Use dds to dump it if non-NULL.
+Address of the debug info found in the active list.
+Invalid debug info address of this critical section
+Critical section address
+corrupted critical section
+Second initialization stack trace. Use dds to dump it if non-NULL.
+First initialization stack trace. Use dds to dump it if non-NULL.
+Address of the debug info found in the active list.
+Critical section address.
+double initialized or corrupted critical section
+Initialization stack trace. Use dds to dump it if non-NULL.
+Critical section debug info address
+Critical section address
+Thread identifier
+Thread is terminated while owning a critical section
+|tp;
+uh +
+|Sh4+
+|Php+
+|PhT,
+|Vhp,
+Heap block size
+Heap block address
+Initialization stack trace. Use dds to dump it if non-NULL.
+Critical section address
+releasing heap allocation containing active critical section
+DLL base address
+DLL name address (use `du ADDRESS' to dump if not null)
+Initialization stack trace. Use dds to dump it if non-NULL.
+Critical section address
+unloading dll containing active critical section
+Vh\/
+SXS: Warning: Activation context data at %p missing default TOC
+SXS: Warning: Activation context data at %p lacks assembly roster
+SXS: Activation context data at %p has TOC header too small (%lu)
+SXS: Activation context data at %p has invalid TOC entry array offset
+SXS: Activation context data at %p has assembly roster header too small (%lu)
+|hV0
+|Vj5
+@0Vj
+RtlCreateActivationContext
+SXS: %s() passed the empty activation context data
+|Sj5
+|h$2
+|Sj5
+PWh\2
+|h|2
+|Sj5
+@;Et
+RtlDeactivateActivationContext
+SXS: %s() called with invalid flags 0x%08lx
+RtlDeactivateActivationContext
+SXS: %s() called with invalid cookie type 0x%08I64x
+RtlDeactivateActivationContext
+SXS: %s() called with invalid cookie tid 0x%08I64x - should be %08lx
+SVWhN3
+|h~3
+RtlDeactivateActivationContextUnsafeFast
+SXS: %s() Active frame is not the frame being deactivated %p != %p
+Qhz5
+kVPh
+Qhr6
+VShb7
+SXS/RTL: Extended TOC section TOC %d (offset: %ld, size: %u) is outside activation context data bounds (%lu bytes)
+SXS/RTL: Extended TOC entry array (starting at offset %ld; count = %lu; entry size = %u) is outside bounds of activation context data (%lu bytes)
+SXS/RTL: Extended TOC offset (%ld) is outside bounds of activation context data (%lu bytes)
+SXS/RTL: Section found (offset %ld; length %lu) extends past end of activation context data (%lu bytes)
+SXS/RTL: TOC entry array (offset: %ld; count = %lu; entry size = %u) is outside bounds of activation context data (%lu bytes)
+SXS/RTL: Activation context data at %p too small; TotalSize = %lu; HeaderSize = %lu
+|h48
+|Rj5
+RtlpFindActivationContextSection_CheckParameters
+SXS: %s() flags contains return_flags but they don't fit in size, return invalid_parameter 0x%08lx.
+RtlpFindActivationContextSection_CheckParameters
+SXS: %s() flags contains return_assembly_metadata but they don't fit in size, return invalid_parameter 0x%08lx.
+|Sj5
+PhD;
+RtlpFindUnicodeStringInSection: Unsupported hash algorithm %lu found in string section.
+SXS: String hash collision chain offset at %p (= %ld) out of bounds
+SXS: String hash table entry at %p has invalid key offset (= %ld)
+   Header = %p; Index = %lu; Bucket = %p; Chain = %p
+PSWj
+8SsHdu
+|Sj5
+RtlFindActivationContextSectionString() found section at %p (length %lu) which is not a string section
+|Sj5
+t29^t-
+w WPV
+RtlFindActivationContextSectionGuid() found section at %p (length %lu) which is not a GUID section
+|Qj5
+RtlpQueryInformationActivationContextBasicInformation
+SXS: %s() received invalid non-zero sub-instance index %lu
+uh>B
+|hzB
+|Wj5
+EPWWWWW
+u!Vh
+9Uv
+K,9H
+RtlpQueryInformationActivationContextDetailedInformation
+SXS: %s() received invalid non-zero sub-instance index %lu
+RtlpQueryInformationActivationContextDetailedInformation
+SXS: %s() found activation context data at %p with assembly roster that has no root
+|h>E
+|Sj5
+VQhrE
+|Sj5
+|Sj5
+|h~F
+|Sj5
+|Sj5
+QhVG
+|h~G
+uh:H
+|hfH
+|Sj5
+uh*I
+|hRI
+|Sj5
+|Sj5
+Ht:Ht"Vh
+|h&J
+|Sj5
+RtlQueryInformationActivationContext
+SXS: %s() - Caller passed invalid flags (0x%08lx)
+RtlQueryInformationActivationContext
+SXS: %s() - Caller passed meaningless flags/class combination (0x%08lx/0x%08lx)
+RtlQueryInformationActivationContext
+SXS: %s() - caller asked for unknown information class %lu
+RtlQueryInformationActivationContext
+SXS: %s() - caller passed nonzero buffer length but NULL buffer pointer
+RtlQueryInformationActivationContext
+SXS: %s() - caller supplied no buffer to populate and no place to return required byte count
+RtlQueryInformationActivationContext
+SXS: %s() - Caller passed invalid flags (0x%08lx)
+RtlQueryInformationActivationContext
+SXS: %s() - Caller asked to use activation context from address in .dll but passed NULL
+RtlQueryInformationActivationContext
+SXS: %s() - Caller passed invalid address, not in any .dll (%p)
+RtlQueryInformationActivationContext
+SXS: %s() - Caller asked to use activation context from hmodule but passed NULL
+RtlQueryInformationActivationContext
+SXS: %s() - Caller passed invalid hmodule (%p)
+RtlQueryInformationActivationContext
+SXS: %s() - caller asked to use active activation context but passed %p
+RtlQueryInformationActivationContext
+SXS: %s() - internal coding error; missing switch statement branch for InfoClass == %lu
+SXS: Unable to expand %%SystemRoot%%\WinSxS\ Status = 0x08lx
+SXS: Unable to enumerate assembly storage subkey #%lu Status = 0x%08lx
+SXS: Attempt to get storage location from subkey %wZ failed; Status = 0x%08lx
+SXS: Unable to open registry key %wZ Status = 0x%08lx
+SVhnM
+|Wj5
+SXS: %s() bad parameters:
+SXS:    Map        : 0x%lx
+SXS:    EntryCount : 0x%lx
+RtlpInitializeAssemblyStorageMap
+RQVP
+|Wj5
+@0SW
+RtlpInsertAssemblyStorageMapEntry
+SXS: %s() bad parameters
+SXS:  Map                    : %p
+SXS:  AssemblyRosterIndex    : 0x%lx
+SXS:  Map->AssemblyCount     : 0x%lx
+SXS:  StorageLocation        : %p
+SXS:  StorageLocation->Length: 0x%x
+SXS:  StorageLocation->Buffer: %p
+SXS:  OpenDirectoryHandle    : %p
+|Wj5
+|Pj5
+|Wj5
+|Wj5
+|hzS
+|Wj5
+SXS: Assembly storage resolution failing probe because combined path length does not fit in an UNICODE_STRING.
+SXS: Assembly storage resolution failing probe because attempt to allocate %u bytes failed.
+SXS: Attempt to translate DOS path name "%S" to NT format failed
+SXS: Unable to open assembly directory under storage root "%S"; Status = 0x%08lx
+SXS: Unable to open assembly directory under storage root "%S"; Status = 0x%08lx
+RtlpProbeAssemblyStorageRootForAssembly
+SXS: %s() bad parameters
+SXS:  Flags:               0x%lx
+SXS:  Root:                %p
+SXS:  AssemblyDirectory:   %p
+SXS:  PreAllocatedString:  %p
+SXS:  DynamicString:       %p
+SXS:  StringUsed:          %p
+SXS:  OpenDirectoryHandle: %p
+|Vj5
+@0WV
+@0WV
+|Vj5
+RtlpGetActivationContextDataStorageMapAndRosterHeader
+SXS: %s() passed the empty activation context
+SXS: %s() bad parameters:
+SXS:    Flags                : 0x%lx
+SXS:    Peb                  : %p
+SXS:    ActivationContextData: %p
+SXS:    AssemblyStorageMap   : %p
+RtlpGetActivationContextDataStorageMapAndRosterHeader
+VQh~[
+|Sj5
+v;f=
+|Sj5
+V8f;
+|Sj5
+|Wj5
+|Sj5
+|Wj5
+|Wj5
+|Sj5
+|Sj5
+|Sj5
+QRVPh
+|h.`
+|Sj5
+SXS: Assembly directory name stored in assembly information too long (%lu bytes) - ACTIVATION_CONTEXT_DATA at %p
+SXS: Attempt to translate DOS path name "%S" to NT format failed
+SXS: Storage resolution callback said that this is a well known storage root
+SXS: Attempt to probe known root of assembly storage ("%wZ") failed; Status = 0x%08lx
+SXS: Attempt to insert well known storage root into assembly storage map assembly roster index %lu failed; Status = 0x%08lx
+SXS: Storage resolution callback has indicated that this is the last root to process: number %Iu
+SXS: Unable to resolve storage root for assembly directory %wZ in %Iu tries
+SXS: Callback routine cancelled storage root resolution on root number %Iu
+SXS: Storage resolution finished because callback indicated no more entries on root number %Iu
+SXS: Attempt to probe assembly storage root %wZ for assembly directory %wZ failed with status = 0x%08lx
+SXS: Unable to open assembly directory under storage root "%S"; Status = 0x%08lx
+SXS: It is resolved!!!, GOOD
+SXS: Storage resolution failed to insert entry to storage map; Status = 0x%08lx
+RtlpResolveAssemblyStorageMapEntry
+SXS: %s() bad parameters
+SXS:   Map                : %p
+SXS:   Data               : %p
+SXS:   AssemblyRosterIndex: 0x%lx
+SXS:   Map->AssemblyCount : 0x%lx
+|hha
+|Wj5
+|Wj5
+PSh b
+|h<b
+|Wj5
+QSPh
+|Wj5
+RtlGetAssemblyStorageRoot
+SXS: %s() passed the empty activation context
+SXS: RtlGetAssemblyStorageRoot() unable to get activation context data, storage map and assembly roster header.  Status = 0x%08lx
+RtlGetAssemblyStorageRoot
+SXS: %s() bad parameters AssemblyRosterIndex 0x%lx >= AssemblyRosterHeader->EntryCount: 0x%lx
+SXS: RtlGetAssemblyStorageRoot() unable to resolve storage map entry.  Status = 0x%08lx
+RtlGetAssemblyStorageRoot
+SXS: %s() bad parameters:
+SXS:    Flags              : 0x%lx
+SXS:    AssemblyRosterIndex: 0x%lx
+SXS:    AssemblyStorageRoot: %p
+SXS:    Callback           : %p
+|hzf
+;Gt
+This != NULL
+d:\xpsprtm\base\ntdll\sxsisol.cpp
+Internal error check failed
+(This->PrivateDynamicallyAllocatedString == NULL) || (This->PrivateDynamicallyAllocatedString->Buffer == NULL)
+d:\xpsprtm\base\ntdll\sxsisol.cpp
+Internal error check failed
+rUS.Length <= This->PrivatePreallocatedString->MaximumLength
+d:\xpsprtm\base\ntdll\sxsisol.cpp
+Internal error check failed
+This->PrivateUsedString != NULL
+d:\xpsprtm\base\ntdll\sxsisol.cpp
+Internal error check failed
+This->PrivateUsedString != NULL
+d:\xpsprtm\base\ntdll\sxsisol.cpp
+Internal error check failed
+p h j
+|h4k
+sxsisol_SearchActCtxForDllName
+[%x.%x] SXS: %s - Relative redirection plus env var expansion.
+!(askd.Flags & ACTIVATION_CONTEXT_SECTION_KEYED_DATA_FLAG_FOUND_IN_SYSTEM_DEFAULT)
+d:\xpsprtm\base\ntdll\sxsisol.cpp
+Internal error check failed
+Status != STATUS_NOT_FOUND
+d:\xpsprtm\base\ntdll\sxsisol.cpp
+Internal error check failed
+Status != STATUS_SXS_SECTION_NOT_FOUND
+d:\xpsprtm\base\ntdll\sxsisol.cpp
+Internal error check failed
+_f9}
+|u+d
+tSj\V
+f958
+WWWSj
+} ;}
+VPQPSP
+PWh8{
+|PhX{
+LdrRelocateImageWithBias
+%s: %s() failed 0x%lx
+%s: OldBase     : %p
+%s: NewBase     : %p
+%s: Diff        : 0x%I64x
+%s: NextOffset  : %p
+%s: *NextOffset : 0x%x
+%s: SizeOfBlock : 0x%lx
+1HAf
+HABB
+OBBF
+<Of;=t
+vTh`
+v(hh
+PSSW
+@0WS
+@0WS
+tPS
+EPj
+t0Nt$Nt
+u$PR
+jDXP
+Gy
+f)F
+Oy
+HEAP[%wZ]: 
+Index not found into the bitmap %08lx
+Invalid Cache depth
+,Ph$
+HEAP[%wZ]: 
+Ignoring RtlDestroyHeap( NULL )
+URP
+u95,
+tX9M
+HEAP[%wZ]: 
+Heap missing last entry in committed range near %x
+u9WS
+Et9d
+,Ph~
+u9WS
+Et9d
+PWh"
+,Phb
+PVhn
+HEAP[%wZ]: 
+HEAP: Free Heap block %lx modified at %lx after it was freed
+HEAP[%wZ]: 
+HEAP: Free Heap block %lx modified at %lx after it was freed
+HEAP[%wZ]: 
+HEAP: Free Heap block %lx modified at %lx after it was freed
+HEAP[%wZ]: 
+HEAP: Free Heap block %lx modified at %lx after it was freed
+No free blocks in the cache but the depth is not 0 %ld
+PVh*
+,Phj
+PVhv
+@@t!h
+u9=,
+HEAP[%wZ]: 
+HEAP: Free Heap block %lx modified at %lx after it was freed
+HEAP[%wZ]: 
+HEAP: Free Heap block %lx modified at %lx after it was freed
+HEAP[%wZ]: 
+HEAP: Free Heap block %lx modified at %lx after it was freed
+@@;E
+f;DU
+f;DU
+t,f;
+f;Zt
+VWug
+2F:
+<0;}
+F8Pj
+@0Vj
+@0Vj
+"f=o
+EPj
+EPj
+EPj
+f90t
+1AAf
+f91u
+RTL: Expand variables for %wZ failed - Status == %lx Size %x > %x <%x>
+RTL: Expand variables for %wZ failed - Status == %lx
+RtlpCallQueryRegistryRoutine: skipping expansion.  Status=%x RequiredLength=%x
+RtlpCallQueryRegistryRoutine: skipping environment expansion.  ValueLength=%x
+RRRR
+RtlQueryRegistryValues: Miscomputed buffer size at line %d
+RtlQueryRegistryValues: Miscomputed buffer size at line %d
+,PhD
+uhx
+HEAP[%wZ]: 
+Invalid heap signature for heap at %x
+, passed to %s
+|u%d
+G@t
+HEAP[%wZ]: 
+HEAP: Free Heap block %lx modified at %lx after it was freed
+HEAP[%wZ]: 
+HEAP: Free Heap block %lx modified at %lx after it was freed
+HEAP[%wZ]: 
+Unable to release memory at %p for %p bytes - Status == %x
+HEAP[%wZ]: 
+HEAP: Free Heap block %lx modified at %lx after it was freed
+}WV
+F,Pj
+@0VW
+PWhF
+If=b
+RTL: RtlNtStatusToDosError(0x%lx): No Valid Win32 Error Mapping
+RTL: Edit ntos\rtl\generr.c to correct the problem
+RTL: ERROR_MR_MID_NOT_FOUND is being returned
+PSVj
+Ff-
+@0Vj
+_^[t
+Pj j
+YYt
+u!GGf
+YYt1
+shSj
+@0VS
+@0Vj
+GPj
+@0Wj
+@0Vj
+@0WS
+@0Vj
+Pj"j
+HHt.
+WWWWWj
+|^t?d
+,Ph&
+,PhJ
+HEAP[%wZ]: 
+Inspecting leaks at process shutdown ...
+HEAP[%wZ]: 
+%ld leaks detected.
+HEAP[%wZ]: 
+No leaks detected.
+j@Ph
+HEAP: Invalid size %ld for the affinity mask. Using %ld instead
+NtQuerySystemInformation failed
+Oxad
+|;H$u]3
+f=p
+??_V@YAXPAX@Z
+??_U@YAPAXI@Z
+??3@YAXPAX@Z
+??2@YAPAXI@Z
+free
+realloc
+calloc
+malloc
+HeapCreate
+HeapFree
+HeapReAlloc
+HeapAlloc
+LocalFree
+LocalReAlloc
+LocalAlloc
+GlobalFree
+GlobalReAlloc
+GlobalAlloc
+page heap failed to commit memory
+Uncommitted Ranges
+LastSegmentIndex
+FrontEndHeapType
+FrontHeapLockCount
+FrontEndHeap
+LockVariable
+FreeLists
+PseudoTagEntries
+NonDedicatedListLength
+AllocatorBackTraceIndex
+FreeListsInUseTerminate
+FreeListsInUse
+Segments
+VirtualAllocdBlocks
+AlignMask
+AlignRound
+UnusedUnCommittedRanges
+UCRSegments
+TagEntries
+MaximumTagIndex
+NextAvailableTagIndex
+HeaderValidateCopy
+HeaderValidateLength
+ProcessHeapsListIndex
+MaximumAllocationSize
+TotalFreeSize
+DeCommitTotalFreeThreshold
+DeCommitFreeBlockThreshold
+SegmentCommit
+SegmentReserve
+VirtualMemoryThreshold
+ForceFlags
+Flags
+Signature
+Entry
+(null)
+_nextafter
+_logb
+frexp
+fmod
+_hypot
+_cabs
+ldexp
+fabs
+sqrt
+atan2
+acos
+asin
+tanh
+cosh
+sinh
+i9\\.\WMIDataDevice
+uWj=3
+t!8]
+Set 0x%X protection for %p section for %d bytes, old protection 0x%X
+YYtHf
+CLIENT(ntdll): Tyring to fix protection for %ws section in %wZ module to 0x%X
+QQVW
+PVh{
+|VVVVV
+|)Vj
+SVWd
+9^$u
+F,SS
+_^[]
+tAVW
+|PjW
+|LdrReadMemory
+LdrReadMemory
+LDR: %s - exception %08lx caught while copying %u bytes from %p to %p
+free build; no checkpoint info available
+LDR: LdrpInitializeProcess() threw an exception: %08lx
+     Exception record: %p
+     Context record: %p
+     Last checkpoint: %s line %d
+!95x
+Vt.W
+E_t
+SWh
+SWh4
+SWhX
+SWh8
+|Wh2
+SWh 
+|Whf
+SWhT
+_^[]
+|LdrpTouchThreadStack
+Pjj
+|9>u
+LDR: Unable to unprotect IAT to enable tagging by DLL.
+SaferIdentifyLevel
+SaferComputeTokenFromLevel
+SaferCloseLevel
+Mf;A
+ntdll: wants more than ULONG_MAX bytes 
+t Ht
+ESW
+SRQP
+v(h"!
+Resource @ %lx
+ NumberOfWaitingShared = %lx
+ NumberOfWaitingExclusive = %lx
+ NumberOfActive = %lx
+|;P$t8d
+NTDLL: Calling thread (%X) not owner of CritSect: %p  Owner ThreadId: %X
+Et
+;1^u
+8Uu
+PSSj
+@0WS
+,t*f
+})}
+jXh8+
+tU8]
+;Uu
+F,PWWWS
+F,PWWWS
+E9}}$9}
+WWWW
+v8;~,s)
+EPj
+~$_^]
+9Mu
+PSSS
+8]t+
+EPj
+uWV
+_^[]
+FP+FH
+Fd+FH
+EVW
+x8j@^VP
+[_^]
+t:j@S
+C89E
+YYj$
+|NTDLL: Lost critical section %08lX
+ESV
+9x tN
+EAtB
+|SSSj
+|3Sj
+EAt9^0u
+EAt
+E t
+sfW3
+PSSS
+@0j$j
+CCf9;u
+YYtGd
+@0j$W
+CCf9;
+_[^]
+YYt 
+AVRF: provider %ws was not found in the initialization list 
+AVRF: provider %ws 
+|Wu3
+vhJH
+YYuQ
+~!E
+YYt5
+AVRF: chain: searching in %ws
+AVRF: chain: dll: %ws
+AVRF: chain: thunk: %s == %s ?
+AVRF: Found duplicate for (%ws: %s) in %ws
+AVRF: Checking %ws for duplicate (%ws: %s) 
+AVRF: Chaining (%ws: %s) to %ws
+tlVW
+Wh~J
+6tW
+[_^]
+AVrfDllUnloadNotification called for a provider (%p) 
+ SVW
+Pjj
+}/PhjL
+AVRF: Unable to unprotect IAT to modify thunks (status %08X).
+AVRF:SilviuC: New thunk for %s is null. 
+AVRF: Snapped (%ws: %s) with (%ws: %p). 
+YYu2
+AVRF: found verified export %s @ %p 
+Pj j
+AVRF: failed to enable handle checking (status %X) 
+|yPd
+p Vh
+@tXd
+p Vh
+IhXS
+p Vh
+===========================================================
+VERIFIER INTERNAL ERROR %p: pid 0x%X: %s 
+%p : %s
+%p : %s
+%p : %s
+%p : %s
+===========================================================
+===========================================================
+VERIFIER INTERNAL WARNING %p: pid 0x%X: %s 
+%p : %s
+%p : %s
+%p : %s
+%p : %s
+===========================================================
+===========================================================
+VERIFIER STOP %p: pid 0x%X: %s 
+%p : %s
+%p : %s
+%p : %s
+%p : %s
+===========================================================
+YYu0
+Page heap: found %s @ address %p 
+@0Sj
+@0Sj
+uVj
+Page heap: detected CRT heap @ %p 
+j h8[
+vhP[
+vh(\
+vh`\
+|AVRF: verifier dll `%ws' 
+AVRF: %ws: failed to load provider `%ws' (status %08X) from %ws
+AVRF: provider %ws is not a DLL image 
+AVRF: cannot find an entry point for provider %ws 
+AVRF: provider %ws passed an invalid descriptor @ %p 
+AVRF: initialized provider %ws (descriptor @ %p) 
+AVRF: provider %ws did not initialize correctly 
+AVRF: exception raised in provider %ws initialization routine 
+AVRF: exception raised while probing provider %ws 
+|tmSW
+YYu.
+_[^]
+AVRF: pid 0x%X: found dll descriptor for `%ws' with verified exports 
+Pjj
+w0h<a
+w0h\a
+w0h(b
+w0hHb
+w0hlb
+w0hc
+w0h(c
+w0hDc
+w0h`c
+LDR: Unable to unprotect IAT to enable per DLL page heap.
+Snapped (%ws) HeapCreate ... 
+Snapped (%ws) RtlAllocateHeap ... 
+Snapped (%ws) RtlReAllocateHeap ... 
+Snapped (%ws) RtlFreeHeap ... 
+Snapped (%ws) HeapAlloc ... 
+Snapped (%ws) HeapReAlloc ... 
+Snapped (%ws) HeapFree ... 
+Snapped (%ws) LocalAlloc ... 
+Snapped (%ws) LocalReAlloc ... 
+Snapped (%ws) LocalFree ... 
+Snapped (%ws) GlobalAlloc ... 
+Snapped (%ws) GlobalReAlloc ... 
+Snapped (%ws) GlobalFree ... 
+Snapped (%ws) malloc ... 
+Snapped (%ws) realloc ... 
+Snapped (%ws) calloc ... 
+Snapped (%ws) free ... 
+Snapped (%ws) operator new ... 
+Snapped (%ws) operator delete ... 
+Snapped (%ws) operator new[] ... 
+Snapped (%ws) operator delete[] ... 
+FFf9
+^hf
+AVRF: resnapping %ws ... 
+AVRF: skipped resnapping provider %ws ... 
+t`VW
+6tW
+[_^]
+@0Vj
+[tohxi
+AVRF: %ws: pid 0x%X: flags 0x%X: application verifier enabled
+AVRF: %ws: pid 0x%X: application verifier will be disabled due to an initialization error.
+AVRF: -*- final list of providers -*- 
+SsHd;
+t!RQh\m
+|Vj5
+v!QPh
+|h n
+|Vj5
+v#j,QPh
+|Vj5
+RQPh0o
+|h`o
+RQPh
+|h0p
+RQPh
+j4QPh
+;]v 
+uRQPhXr
+|Vj5
+[_^]
+RtlpCrackActivationContextStringSectionHeader
+SXS: %s() passed string section at %p only %lu bytes long; that's not even enough for the 4-byte magic and 4-byte header length!
+RtlpCrackActivationContextStringSectionHeader
+SXS: %s() found assembly information section with wrong magic value
+   Expected %lu; got %lu
+RtlpCrackActivationContextStringSectionHeader
+SXS: %s() passed string section at %p claims %lu byte header size; that doesn't even include the HeaderSize member!
+RtlpCrackActivationContextStringSectionHeader
+SXS: %s() passed string section at %p with too small of a header
+   HeaderSize: %lu
+   Required: %lu
+RtlpCrackActivationContextStringSectionHeader
+SXS: %s() found assembly information section with element list overlapping section header
+   Section header: %p
+   Header Size: %lu
+   ElementListOffset: %lu
+RtlpCrackActivationContextStringSectionHeader
+SXS: %s() found assembly information section with search structure overlapping section header
+   Section header: %p
+   Header Size: %lu
+   SearchStructureOffset: %lu
+RtlpCrackActivationContextStringSectionHeader
+SXS: %s() found assembly information section with user data overlapping section header
+   Section header: %p
+   Header Size: %lu
+   User Data Offset: %lu
+RtlpCrackActivationContextStringSectionHeader
+SXS: %s() found assembly information section with user data too small
+   Section header: %p
+   UserDataSize: %lu; needed: %lu
+RtlpCrackActivationContextStringSectionHeader
+SXS: %s() found assembly information section with user data extending beyond section data
+   Section header: %p
+   UserDataSize: %lu
+   UserDataOffset: %lu
+   Section size: %lu
+SVW
+v!QRhpu
+|Sj5
+EPj
+VjXW
+FXt(
+RtlpQueryAssemblyInformationActivationContextDetailedInformation
+SXS: %s() received invalid sub-instance index %lu out of %lu Assemblies in the Acitvation Context
+SVW3
+PRh x
+|hhx
+|Wj5
+WQjX
+Ur#Q
+|Wj5
+J9Y
+}9}
+;Kr
+RtlpQueryFilesInAssemblyInformationActivationContextDetailedInformation
+SXS: %s() received invalid sub-instance index %lu out of %lu Assemblies in the Acitvation Context
+RtlpQueryFilesInAssemblyInformationActivationContextDetailedInformation
+SXS: %s() received invalid file index (%d) in Assembly (%d)
+Ph({
+Phh{
+|Wj5
+|Wj5
+Ph8|
+|Wj5
+|SXS: Unable to open storage root subkey %wZ; Status = 0x%08lx
+SXS: Unabel to query location from storage root subkey %wZ; Status = 0x%08lx
+SXS: Assembly storage root location value type is not REG_SZ
+SXS: Assembly storage root location value has non-even size
+SXS: Assembly storage root location for %wZ does not fit in a UNICODE STRING
+>_^[]
+CryptAcquireContextW
+CryptCreateHash
+CryptHashData
+CryptGetHashParam
+|Sh@
+|ShH
+|ShP
+|tih
+|ShX
+PSSh
+@0Qj
+@0Wj
+@0jV
+SVWS
+|StgConvertVariantToProperty
+|StgConvertPropertyToVariant
+|StgPropertyLengthAsVariant
+[^_]
+@VW3
+ESV
+ERV
+ESV
+tA;
+\r4h
+LDR: Warning: invalid version resource
+LDR: Exception encountered processing bogus version resource
+EtlP
+PPPP
+ESV
+r7V3
+|r;d
+LDR: Warning: invalid version resource
+LDR: Exception encountered processing bogus version resource
+_^[t
+Et 
+}AA
+Mt8
+E+E
+}9E
+@@_^[
+uWV
+_^[]
+_^[]
+_^[]
+u WV3
+[_^]
+8E$t
+@8E(t
+;C<s,
+j hx
+;C<sA
+t?f9p
+P;Q
+Q;P
+I;Or
+@0j(hRRle
+t3VW
+@0Qj
+@0Sj
+;At
+u)8]
+QQSVWd
+@0j(hRRle
+@0j(hRRle
+_[^]
+;xw
+M;H
+9Us9M
+;Us
+;Mr/3
+8M t
+8M$t
+9M0t(P
+u SW
+u(WV
+u SW
+E9E
+V;P
+8;;s
+;;r1
+89;s
+9{r
+H;O
+@0Wj
+9Brpw
+9Br*w
+A;B
+@0Sj
+QSVW
+E_^[
+;Es
+@0Vj
+t~9U
+9Er[;ywVr
+:;}u'
+z;}
+P;Eu
+@0Qj
+;]tJ
+E9A
+@0Qj
+USV
+SRPQ
+9}u
+SSSSWWPQ
+_^[]
+;PTrR
+M;Q
+EV+
+$ < 
+QQSV
+E(SVWj
+SSSSSSS
+SVWd
+[;_u
+9;8u
+I;Ht
+tPS
+ SVW3
+f9}t
+f9}t
+f9}t
+Heap corruption detected at %p
+uPQ
+;w$se
+B@t
+_^[]
+HEAP[%wZ]: 
+Heap block at %p modified at %p past requested size of %lx
+_^[]
+Jf;N
+^_[]
+Wf;F
+^_[]
+Wf;F
+^_[]
+E+E
+FGKu
+[_^]
+VWt@
+EVWf
+0;M
+0;M
+vO;u
+_^[]
+G;;r
+_^[]
+[u.+
+UVt6
+VRQWPh
+t.Ht
+Function: 
+*** Assertion failed: %s%s
+***   %s%s%sSource File: %s, line %ld
+Break repeatedly, break Once, Ignore, terminate Process, or terminate Thread (boipt)? 
+Execute '.cxr %p' to dump context
+@0Vj
+9?tP
+PVWh
+_^[]
+SSWh
+;]sg
+;EsV
+;ur
+v2;}
+;}v(W
+;ur
+;Ur
+t@HHt0
+HHt3
+uRP
+t@HHt0
+HHt3
+uRP
+EPj
+VWj+Yj83
+GTPj
+GDPj
+;w$r
+HEAP[%wZ]: 
+VirtualQuery Failed 0x%08x %x
+HEAP[%wZ]: 
+VirtualProtect Failed 0x%08x %x
+j(hX
+f;F8s>
+QSPj
+ra9}
+>;x$ry
+EPVS
+;P$r{
+EPVS
+|uN;
+t#9u
+E_^[
+^<9;u3j
+PWSj
+@w j
+f;H8s
+ESVW
+f;A8
+f;C8
+f;F8s
+f;A8sK
+_^[]
+|uL;
+t#9u
+|RtlValidateHeap
+RtlValidateHeap
+jhh0
+PRWj
+;~0t;
+;Y$s-
+t*f=
+t9f=
+t,f=
+t2f=
+@Zf;
+@_^]
+|A;M
+ n;^
+Qkkbal
+i]Wb
+9a&g
+MGiI
+wn>Jj
+#.zf
++o*7
+SSj j
+PSSS
+|bj^
+PSSS
+t6Vj
+9ut
+ts9}
+Pj(j
+|tj!j
+VVj!j
+VVj!j
+QSVW
+j<Yj<[
+_^[f
+u$9^
+_^[]
+ASV
+tOv$
+_^[]
+QSVW
+^@_^[
+VWt#
+_^[]
+8Ht
+t{v9
+_^[]
+1^_]
+};~ u
+F$WV
+9]u
+;G$t
+SVWuq
+4Ff;5,
+|_^[u
+<A@f
+j__f
+arf
+_^[]
+t-C;
+t(f=
+t(f=
+AANu
+B@@;
+Wu*j
+EPj
+9]uxj
+_^[]
+QQSV
+]uD
+v8;NPr
+;H`w
+f9V
+u8f;
+NQPh
+u2f9V
+FPh
+FPh
+ffff:
+::%hs%u.%u.%u.%u
+::ffff:0:%u.%u.%u.%u
+:%u.%u.%u.%u
+%%%u
+]:%u
+%u.%u.%u.%u
+f9V
+u9f;
+uQPh
+u3f9V
+uPh
+C;]
+FPh
+ffff:
+Yt!V
+:u>9U
+Yt S
+<p+u
+VWtW9MtR9M
+tM9M
+MQP
+>%u}F
+YtAW
+YtCV
+Yt8f
+f;Ms+
+Yt|V
+YtqV
+_^[]
+:uD3
+f90u"9U
+:u:9U
+t[9U
+uS9E
+<A+E
+MQP
+]tbf
+YYt.
+_^[]
+@0Vj
+PPPj
+_^[]
+MSW
+_[^]
+;N4sB
+;N4s
+;N4r9X
+F@Y3
+[_^]
+Trace database: failed to release segment %p 
+^_[]
+Trace database: failing attempt to save biiiiig trace (size %u) 
+UnhandledExceptionFilter
+SetUnhandledExceptionFilter
+PVh(W
+PVh0W
+QhDZ
+uSVh
+PhD\
+Dht\
+uSVh
+uSh
+ph^
+ukhd^
+Wh$_
+uSh
+7h `
+YYhx`
+ *** Unhandled exception 0x%08lx, hit in %ws:%s
+ *** A stack buffer overrun occurred in %ws:%s
+This is usually the result of a memory copy to a local buffer or structure where the size is not properly calculated/checked.
+If this bug ends up in the shipping product, it could be a severe security hole.
+The stack trace should show the guilty function (the function directly above __report_gsfailure).
+ *** Resource timeout (%p) in %ws:%s
+The resource is owned exclusively by thread %x
+The resource is owned shared by %d threads
+The resource is unowned.  This usually implies a slow-moving machine due to memory pressure
+ *** Critical Section Timeout (%p) in %ws:%s
+The critical section is owned by thread %x.
+Go determine why that thread has not released the critical section.
+The critical section is unowned.  This usually implies a slow-moving machine due to memory pressure
+ *** Inpage error in %ws:%s
+The instruction at %p referenced memory at %p.
+This failed because of error %x.
+This means that the I/O device reported an I/O error.  Check your hardware.
+This means the data could not be read, typically because of a bad block on the disk.  Check your hardware.
+This means the machine is out of memory.  Use !vm to see where all the memory is being used.
+ *** An Access Violation occurred in %ws:%s
+write to
+read from
+The instruction at %p tried to %s 
+an invalid address, %p
+a NULL pointer
+ *** enter .exr %p for the exception record
+ ***  enter .cxr %p for the context
+ *** then kb to get the faulting stack
+ *** Restarting wait on critsec or resource at %p (in %ws:%s)
+urW3
+QQQP
+_^[]
+8HOT1u
+.hotp1  
+P,;Ut
+PSV
+y$+x(
+HtpH
+RPhve
+RPh.f
+|QjW
+(no change)
+%08I64X: VA64 %016I64X -> %016I64X %s
+(no change)
+%08I64X: PC32 %08X -> %08X (target %08X) %s
+(no change)
+%08I64X: VA32 %08X -> %08X %s
+ (padding)
+          None%s
+%08I64X: Unknown
+Invalid fixup information
+EWP
+_^[]
+Validation failure. Source = %lx, Target = %lx, Size = %lx
+Invalid target validation range
+Invalid source hotpatch validation range
+/WCSh
+Skipping hook-specific validation range during global validation
+Validation failed for global range %u of %u
+Invalid hotpatch validation array pointer
+SVWt?
+_^[]
+O;HPr
+IItOIIt
+|PjW
+u QS
+u VS
+;pPs
+^[_]
+Invalid hotpatch validation pointer in hook record
+Hook type not yet implemented
+QQSV
+;XPr
+>;QPr
+RPhvm
+G;>r
+u;VPr
+Invalid hotpatch hook pointer
+Invalid hook type specified
+Invalid hotpatch relative address
+%08I64X: jmp %08X (PC+%08X) {
+ %02X
+Invalid hotpatch relative address
+No hooks defined in hotpatch
+Inserting %u hooks into target image
+Invalid hotpatch hook array pointer
+Ht,
+w?VW
+2h0r
+Qh`r
+Failed to normalize PE header for validation
+Header too large (%u>%u) for copy/normalize/validate
+]VW
+UUUU
+QSVW
+I<;H
+PE header hash ID comparsion failure (PE2)
+Q8;P
+I<;Hu
+t^HtTHt2Ht!
+Unrecognized
+HOTP_ID_PeDebugSignature
+HOTP_ID_PeHeaderHash2
+HOTP_ID_PeHeaderHash1
+HOTP_ID_None
+QQVj
+Heap handle
+heap handle with incorrect signature
+wBt9
+t+Ht!Ht
+HHt
+@t$-
+PAGE_WRITECOPY
+PAGE_READWRITE
+PAGE_READONLY
+PAGE_NOACCESS
+UNKNOWN
+PAGE_EXECUTE
+0x%08X
+PAGE_GUARD
+PAGE_EXECUTE_WRITECOPY
+PAGE_EXECUTE_READWRITE
+PAGE_EXECUTE_READ
+QPVj
+PWVh<z
+Page heap: Failed changing VM at %08X size 0x%X
+          from %s to %s (Status %08X)
+USV
+EPj
+|tSVj
+page heap failed to decommit memory
+} Vj
+;Mt
+P@9HDV
+)HL^]
+9H0V
+p09H4
+P 9H$V
+I)H\^]
+I@SVW3
+;uv
+;Ur
+u1WS
+u/PW
+9FDu
+~DPV
+~D_^[
+;Ev
+[_^]
+_^[]
+u;8M
+uh
+Exception record (.exr on 1st word, .cxr on 2nd word)
+Exception code
+Heap handle involved
+unexpected exception raised in heap code path
+|Vh(
+Page heap count
+Actual count
+process heap list count is wrong
+|%Wj,
+s89}
+p h
+s*9}
+p hT
+Page heap: pid 0x%X: vm limit: vspace: disabling full page heap 
+Page heap: pid 0x%X: vm limit: pfile: disabling full page heap 
+Page heap: pid 0x%X: vm limit: reenabling full page heap 
+uFGG3
+GGf9
+;Mt
+|SWj
+Block @ %p has been leaked 
+Page heap: Last stack @ %p, Current stack @ %p 
+QQS3
+|u S
+|s'3
+Page heap: enabling fault injection for process 0x%X 
+ tXd
+;H$t2d
+p$h\
+|Vh
+/no_sync option used
+Current thread using the heap
+First thread that used the heap
+Heap handle
+multithreaded access in HEAP_NO_SERIALIZE heap
+Current thread trying to acquire the heap lock
+Thread owning heap lock
+Heap handle
+multithreaded access in HEAP_NO_SERIALIZE heap
+tVSV
+r1WV
+_^[]
+4SV3
+Whl?
+|u?W
+Page heap: assert: (SystemInfo.PageSize == PAGE_SIZE)
+Page heap: assert: (SystemInfo.AllocationGranularity == VM_UNIT_SIZE)
+Page heap: Insufficient memory to create heap
+}WV
+EPV
+wj@Z
+Pj S
+|v+A;
+ t4h
+t/h<
+|VhX
+t/h=
+|VhX
+ t/h
+|Vh0
+|Vh|
+Block size
+Heap block
+Heap handle
+exception raised while verifying block header
+Block size
+Heap block
+Heap handle
+block already freed
+Block size
+Heap block
+Heap handle
+corrupted infix pattern for freed block
+Heap owning the block
+Block size
+Heap block
+Heap used in the call
+corrupted heap pointer or using wrong heap
+Block size
+Heap block
+Heap handle
+corrupted suffix pattern
+Block size
+Heap block
+Heap handle
+corrupted prefix pattern
+Corrupted stamp
+Block size
+Heap block
+Heap handle
+corrupted start stamp
+Corrupted stamp
+Block size
+Heap block
+Heap handle
+corrupted end stamp
+Block size
+Heap block
+Heap handle
+exception raised while verifying block
+Block size
+Heap block
+Heap handle
+corrupted heap block
+v,hX
+|Shl
+t/VWS
+^_[]
+Size requested
+Heap handle
+extreme size request
+j0h8
+v*hD
+|WhX
+)CLS
+Size requested
+Heap handle
+extreme size request
+Page heap: Invalid allocation size
+Page heap: Unable to allocate virtual memory
+u+ht
+|Shv
+|Shx
+9^tt
+|9^pt
+SSPQ
+Process heap handle
+attempt to destroy process heap
+unable to release virtual memory
+_^[]
+_[^]
+Size requested
+Heap handle
+extreme size request
+F$9H
+]SV
+u3WV
+C$9H
+Size requested
+Heap handle
+extreme size request
+Page heap: Invalid allocation size
+Page heap: assert: (OriginalAllocationInPageHeap)
+QQSW
+;O$sP
+;H$r
+SSSVj
+WSSVj
+SSSVj
+_^[]
+p0V3
+SSSj
+_^[]
+uJh0
+_^[]
+Error
+Error allocate
+L2#
+Sh`
+|tM3
+PSh`
+Conflicting descriptors %08lx
+Unable to allocate page descriptor
+tSQ
+IQ@P
+YYVW
+_^[]
+HEAP %p (Seg %p) At %p Error: %s
+%p address isn't from the heap
+%p address isn't from the heap
+Error finding block from lookaside %p
+Error, block %p from lookaside not found in allocated block list
+|t;3
+_^[]
+Entry     User      Heap          Size  PrevSize  Flags
+------------------------------------------------------------
+busy 
+free 
+extra 
+fill 
+virtual 
+last 
+user_flag 
+%p  %p  %p  %8lx  %8lx  
+QSVW
+PVSj
+0PVh
+|t2;<
+HEAP[%wZ]: 
+Heap %x - headers modified (%x is %x instead of %x)
+    This is located in the %s field of the heap header.
+}9w
+f;B8s
+@@t:
+u0;w$tHd
+w$Vh
+w(Wh
+,PhB
+QPVhN
+,Ph"
+PVh.
+,Phb
+9G,t5d
+w,Wh
+HEAP[%wZ]: 
+Heap block at %p is not last block in segment (%x)
+HEAP[%wZ]: 
+Heap Segment at %p contains invalid NumberOfUnCommittedPages (%x != %x)
+HEAP[%wZ]: 
+Heap entry %p is beyond uncommited range [%x .. %x)
+HEAP[%wZ]: 
+Heap entry %p has incorrect PreviousSize field (%04x instead of %04x)
+HEAP[%wZ]: 
+Free Heap block %p modified at %p after it was freed
+HEAP[%wZ]: 
+Heap block at %p has incorrect segment index (%x)
+HEAP[%wZ]: 
+Heap block at %p does not match address of next uncommitted address (%x)
+HEAP[%wZ]: 
+Heap Segment at %p contains invalid NumberOfUnCommittedRanges (%x != %x)
+,Ph:
+t49}
+,Phj
+PWVj
+,Ph&
+HEAP[%wZ]: 
+Invalid ReserveSize parameter - %p
+HEAP[%wZ]: 
+Invalid CommitSize parameter - %p
+HEAP[%wZ]: 
+May not specify Lock parameter with HEAP_NO_SERIALIZE
+HEAP[%wZ]: 
+Specified HeapBase (%p) invalid,  Status = %lx
+HEAP[%wZ]: 
+Specified HeapBase (%p) != to BaseAddress (%p)
+HEAP[%wZ]: 
+Specified HeapBase (%p) is free or not writable
+tQ;X rL;X$sG
+;X r
+;X$r
+HEAP[%wZ]: 
+Invalid Address specified to %s( %p, %p )
+,Ph.
+,Phv
+,PhJ
+PVhV
+f;G8s
+uPW
+}@r
+9w(t3d
+,Ph:
+w(VhF
+uSCf
+u`Cf;
+HEAP[%wZ]: 
+dedicated (%04x) free list empty but marked as non-empty
+HEAP[%wZ]: 
+dedicated (%04x) free list non-empty but marked as empty
+HEAP[%wZ]: 
+dedicated (%04x) free list element %p is marked busy
+HEAP[%wZ]: 
+Dedicated (%04x) free list element %p is wrong size (%04x)
+HEAP[%wZ]: 
+Non-Dedicated free list element %p with too small size (%04x)
+HEAP[%wZ]: 
+Non-Dedicated free list element %p is out of order
+HEAP[%wZ]: 
+Number of free blocks in arena (%ld) does not match number in the free lists (%ld)
+HEAP[%wZ]: 
+Total size of free blocks in arena (%ld) does not match number total in heap header (%ld)
+HEAP[%wZ]: 
+Pseudo Tag %04x size incorrect (%x != %x) %x
+HEAP[%wZ]: 
+Tag %04x (%ws) size incorrect (%x != %x) %x
+HEAP[%wZ]: 
+May not destroy the process heap at %x
+RtlDestroyHeap
+|u>d
+F0f;
+YYWV
+,PhL
+v,WhX
+|RtlAllocateHeap
+HEAP[%wZ]: 
+Just allocated block at %p for 0x%x bytes
+HEAP[%wZ]: 
+Just allocated block at %p for 0x%x bytes with tag %ws
+HEAP[%wZ]: 
+Invalid allocation size - %p (exceeded %x)
+jlhH
+|uAd
+t^f;=
+|uUf
+F0f;
+|uHd
+YYWV
+|u>d
+,Ph
+f;=
+F0f;
+,PhD
+YYWV
+v,Wh
+|RtlReAllocateHeap
+RtlReAllocateHeap
+HEAP[%wZ]: 
+About to reallocate block at %p to 0x%x bytes
+HEAP[%wZ]: 
+About to rellocate block at %p to 0x%x bytes with tag %ws
+HEAP[%wZ]: 
+Just reallocated block at %p to 0x%x bytes
+HEAP[%wZ]: 
+Just reallocated block at %p to 0x%x bytes with tag %ws
+HEAP[%wZ]: 
+Invalid allocation size - %p (exceeded %x)
+|u>d
+,Ph(
+t[f;=
+|uRf
+F0f;
+|uEd
+,PhP
+YYWV
+PSh\
+|RtlFreeHeap
+RtlFreeHeap
+HEAP[%wZ]: 
+About to free block at %p
+HEAP[%wZ]: 
+About to free block at %p with tag %ws
+|RtlGetUserInfoHeap
+RtlGetUserInfoHeap
+j h(
+|RtlSetUserValueHeap
+RtlSetUserValueHeap
+|RtlSetUserFlagsHeap
+RtlSetUserFlagsHeap
+j$h(
+|RtlSizeHeap
+RtlSizeHeap
+j hh
+]WV
+|RtlCompactHeap
+]WV
+|RtlZeroHeap
+]WV
+|RtlCreateTagHeap
+]WV
+|RtlQueryTagHeap
+]WV
+|RtlUsageHeap
+|RtlWalkHeap
+;Pr
+9M}
+;Mr
+)Etp
+F9E
+wWS
+M ;M
+?;:j
+Yr>;
+u'9J
+]@;Z
+9Er
+J_^[
+EF9]r
+9Er
+ESV
+_^[]
+EWt
+EWt
+NGG;
+_^[]
+G;>r
+_^[]
+tR</t
+arf
+{FF3
+QQVW
+YYuh
+HYYtJHt9H
+YY_^
+u*9E
+SVWt*
+_^[]
+VWt*
+t'9E
+YYuR
+u>9U
+u:9U
+9Eu?9U
+l9Mui9U
+t]OtN
+t:Ot+
+t0Ot&Ot
+t6Ot'
+t0Ot$Ot
+OtOuc
+atan
+ceil
+floor
+modf
+exp2
+exp10
+log2
+log10
+QQSV
+YY~-
+$jj
+$jj
+t-Ht
+AP_^
+|;Mtf@
+EYY]
+QQSV
+YY~-
+jdX;
+^F<-uB
+]t7F:
+YYj0[
+?%uW
+tRHtCHt4Ht%HtFHHt
+HYYt
+|u*VVVh
+~VW
+tG8]
+tRQ
+uV2
+SVW3
+F95(
+ QPP
+%4ku
+SVWj
+|um8
+|te9
+|tN9
+s|h`5
+j<RP
+KRf;
+KZf;
+S|f9~x
+F@9{\t
+jWX^_
+jPhx:
+,SVh
+Wj6Y
+G0j,
+Sj<RP
+A8V3
+Z(_^
+X(C;
+HtdHu+
+SPQQQ
+E_^[
+QQSW
+9_Tt
+9_\t
+SVWh 
+9^0vK
+C;^0r
+SVW3
+jz@_
+Sj(PhD
+C, t
+rt:
+jz_SV
+ShPA"
+^[_]
+9~0v5
+x,9x,t
+A;N0r
+t{="
+PVWh
+t=Ht)Ht
+HHuBV
+hTA"
+QQQQ
+|u9Wh
+u VS
+ShLA"
+9w4t
+w4_^]
+YY9>u
+QQVd
+HtHHt<Ht0Ht$Ht
+@f9E
+VVVVWP
+|SWj
+$SVW3
+@0VW
+QQV3
+tdHt7Ht
+RQPW
+PQQQW
+PSSS
+V"u&f
+SVW3
+jdX9
+9Fv
+F9F
+jdhH`
+9ut
+EPj
+Pjj
+|SVW
+@_^]
+j4h`h
+Pjj
+tAj0Z
+jY3
+ASSj
+v9j@S
+jY3
+QQW3
+u^9} t
+jWX_
+t)f9^xv#
+MQPVP3
+t-PS
+SPVVV
+PuZj
+F ^_[
+t`j$VW
+t@8M
+E;C
+QQVh
+PWVj
+PSVj
+| 9>
+QVW3
+t)S3
+98v!
+PVSt
+9}u
+9{<t
+C8f98v
+9}t;
+V4_^[
+h\A"
+f9sxY
+PVVV
+K(PV
+PVVVW
+PVVVW
+PVVVW
+|ZVVj
+PVVVW
+.VVj
+PVVVW
+WtHf
+Kxf;
+tG9u
+f9sx
+PVVVW
+j%Y3
+s|AA
+PVVVW
+PVVVW
+PVVVW
+QSVWh@
+EPj
+@0WV
+QQSV
+Et!
+7AA_
+N-@^]
+SVWh@
+QQSVWh@
+uWjDP
+;UtY
+VVVS
+;Er
+@, t`3
+8] tbV
+E#PV
+E#PV
+}0r
+HSVW
+t^jd
+QQSVW
+|tZSSSS
+|tHj
+t$SSSS
+SSSS
+|t VS
+tBPS
+PSSh
+PSSh
+|SVW
+_^[]
+QQSV
+E|R
+E^[
+QWSP
+PWSj
+8\uvf
+\uff
+?u_f
+\uXf
+VuQf
+ouJf
+xluCf
+uu<f
+mu5f
+eu.f
+{u'j-Yf9H&u
+f9H0u
+f9H:u
+f9HDuf
+x^}u
+PSSh
+PSSS
+VSSh
+PSSS
+SSj`j
+PSSS
+SSj j
+PSSh
+PSSS
+pPh
+EPW
+~XWV
+RSDS
+_Q6C
+ntdll.pdb
+uaUyA
+Dt0B
+6\@,
+'97q
+V\x
+VBx.
+{s4h
+5Ua]
+2"&v
+O/T
+)#_ck
+'97|
+;$^i
+2?ly
+zZ3 
+*MdI.
+Rcos
+?pow
+sqrt
+atan
+2E3S3e3p3
+4,4\4
+465C5S5`5K6
+7$7Q7\7n7
+>8>Q>
+0.070?082P2W2_2d2h2l2
+2B3H3L3P3T3
+4;4m4t4x4|4
+6 6$6(6,60646~6
+7 7'7,70747Q7{7
+8 8$8(8,8X>h>z>
+T7a7
+0,0V0
+1F1J1N1R1V1Z1^1b1f1j1n1r1v1z1~1
+1 2@;|;
+3C4t5x5
+7<7@7n7s7
+7<8@8 9T9X9
+:R;_;j;z;
+1G2V2{8
+9&9A9
+; ;$;
+<@=L=X=y=
+?V?Z?^?b?f?j?n?r?v?z?~?
+2 2,2x2
+7b9m;w;
+0_1}1F2
+4%484O4
+4/6F6l6t6U7^7f7n7v7H8k8
+7z:r;
+@1L1T1
+2 3/393r3
+4"4H4U4
+5,6@6l6
+809/:
+;?<E<?=
+1C2P2X2]2b2
+3)3c3s3{3
+>.>N>f>k>|>
+>P?w?
+)1?1p1|1
+1O2t2
+4`5h5l5
+;';6;
+,0J0x0
+0,101U1[1U2
+7l8p8
+;>;B;F;J;N;R;V;Z;
+1)2f2
+7T7X7d7
+=%=^=
+011<1S1q3
+4E5n5
+5`6q6
+607\7e7|7
+9,:9:X:d:p:|:
+:(;<;H;
+<P=}>
+>?h?z?
+3W4d4
+545K5
+7K8X8~9
+= >{?
+4<5B5U5^5g5
+6,606M6
+7/7:7X7
+8y8v9
+;8;[;j;
+;J<r<-=
+4B7c7
+=[>e>
+3 3$3(3,3034383<3@3^3h3l3p3t3x3|3
+9D9L9d:
+:l=w=
+2u3X5
+6h6J7S7
+8)9t9
+9,:0:
+;-;2;p;x;
+=8=>=G=Q=V=]=c=t=
+=L>W>\>j>
+>0?A?
+'070
+0l1z1
+2a23@3a3g3
+3U5~5
+5Y6T7q7
+828B8L8T8-9A9L9
+:F:P:X:`:h:u:
+:5;I;^;N<h<x<
+>%>1><>G>
+?)?f?k?v?
+@1r1
+345@7P7
+989S9
+:|;<
+>2>G>M>S>
+>O?Z?b?m?
+01090C0N0Z0g0
+0/1b1
+1.2a2
+2-3`3
+3F4Y4k4w4
+5"5&5*5.52565:5>5B5F5J5N5R5j5
+6?6{6
+6"7^7
+:?:Z:d:}:
+;+;8;E;R;\;b;G<W<
+162R2h2
+2&3*3.32363:3>3B3F3J3N3R3V3Z3^3b3f3j3n3r3v3z3~3
+305H5
+8d9h9t9
+>P?Z?
+40w0{0
+3 3'3>3c3c4
+6=7U7t7|7
+8 8(8
+2C3N3
+5$5`5
+6s6}6
+7'7J7P7p7
+7N8r8
+:1:6:\:
+<*=/=i=|=
++06094
+54585@5E5
+6(6.6O6w6
+:6;\;s;
+394@4V4
+;X;n;
+0]0s0
+0F4r4
+5#5?5Y5h5
+8J8V8b8
+8H9m9
+1j2|2
+4d5h5
+2!2,2A2V2]2b2
+32383>3D3\3b3g3~3
+797l7
+888k8
+9P:T:X:\:`:d:h:l:p:t:x:|:
+:(;W;
+<O<~<
+=:=i=
+5[6a6q6y6
+8'9;9W9k9
+9&:v=
+>/>5>
+>??z?
+5 50757V7
+7$9(9,90949
+< <-<
+7F8(?
+6f7v7
+7:8S8
+9,9=92;b;W<
+6 616
+6)7$8(8
+:L<P<X<\<
+<7=R=u=
+:#:g:p:u:z:
+2.272@2`2m2r2
+5$5W7
+8!858;8A8U8[8a8{8
+<H?R?
+t0x0
+_317T7Z7h7
+<4<A<
+1?1R1
+142i2|2
+6Q9q9
+1A1Q1V1a1u1z1
+1;2b2g2l2u2~2
+6#7*7N7\7
+7D8b8
+8*999
+;w=z?
+3C4L4o4
+5(5O5
+<\=`=
+2+3T3
+6D7z7
+9,:t:
+>)>1>A>R>c?
+060N0^0
+< <z<
+<A=L=
+1-2`2n2
+3H4d4m4
+4!6+6l7w7
+<N=Z=n=
+>%>#?3?
+0g1q1
+4&5g5
+576N6
+7,8?8
+8 :':A:E:
+=r=x=
+>(>1>A>F>
+5L5a5j5|5
+7"7/747P7]7
+708>8W8`8|:
+>G>x>~>
+0/1u1
+30696F6K6
+8%8*868?8J8O8_8x8
+849=9L9Q9q9z9
+:(:2:7:J:S:j:o:
+<%<:<K<T<`<e<
+=S=\=r=w=
+>!>)>2>B>G>`>i>u>z>
+8%80858c8k8z8
+8&:Q:^:v:
+;%;8;D;Y;`;n;
+0,0|0
+1Y1e1p1{1
+2*2C2c2x2
+3(4/4:4
+5-5|7
+7>8F8Q8V8a8i8t8y8
+9&9+969A9F9W9_9p9
+>B>s>
+? ?3?8?l?t?
+1E1M1p1
+2 2d2
+7$777I7N7
+9-9K9h9y9
+<#<0<0=R=c=
+>C?W?
+C0W0
+1.141C1N1
+505>5G5_5k5
+6+6=6C6I6c6u6{6
+6 :-:9:H:T:l:t:
+>&>;>Q>Y>b>
+2U4c4l4
+V0[0
+0R3W3n3s3
+4"4)4.4M4R4q4v4
+;U=@>E>
+0K1P1q1o4t4
+809]9
+;!;&;G;
+1 1-121
+4!4(42474O4Y4^4Y7d7
+;%</<4<
+3/393i3{3
+7R8 ;&;
+<<<g<
+526<6
+:T;g;
+0N4X4q6{6
+>$>4>c>
+@0J0
+0$161V1
+2,242
+= =,=+>J>B?
+$171_1
+2*3@3
+7=8g9}9g:}:
+535;5
+5o5u5
+56>6p6
+6F7O7Z7d7
+7<8Z8s8
+;&<0<R<W<g<r<x<
+?%?5?@?\?c?
+;8;D<
+5,6~7
+88:<:@:D:H:L:P:T:X:I;
+; <&<.<4<^=m=s=
+>4>A>
+2W2q2
+3 414F4{4
+5K6U6$7*727
+8)8/8<8B8O8U8f8m8y8
+:F;c;U=
+>H>V>s>
+0`1i1|1
+1>6:9D9d:<;@;
+1L2~2
+3P3[3f3
+4 4$4(4,4044484<4@4D4H4L4P4T4X4\4`4d4h4l4p4t4x4|4
+617F7W7y7
+9'9F9U9
+:,:F:L:n:U;
+010:0r0w0
+1G1Q1`1
+67'7
+738O8
+9D9Y9c9q9
+:/:u:
+;<;@;H;L;N=\=b=
+?%?-?8?@?H?S?_?j?r?z?
+0'0/070B0J0R0Z0b0j0r0z0
+484?4E4U4[4b4g4w4
+5Y6d6y6
+7,717S7
+8S8_8h8
+;?;D;j;o;
+3b6g6
+:::X:j:
+:$;f=
+>">(>=>G>S>^>v>
+?<?D?L?T?\?
+4`5r5
+7 8*8
+9U<a<
+<F=z=
+=k>u>
+7'7[7
+8.8_8
+;C<T=k=
+0 0$0(0,0004080<0@0
+9$:(:,:0:4:8:<:@:D:H:L:P:T:X:\:`:
+<2<o<
+44585
+9s9w9{9
+4%8\9
+;N;x;
+1\2k2
+3$3y3
+4B6Y6
+<5=O=c=
+=8>W>]>
+>*?=?
+5t6x6
+6?7L8\8f8p8w8~8
+999_9~9
+:(;`<h<l<x<
+M0y0
+415S5`5\6
+:f;r;
+82x2
+3 3`3x3|3
+599O9w9
+0[3h3
+=&=?=K=u=
+7!7*787Q7V8
+909b9
+:3:c:
+;9;\;
+=9=l=
+>:>l>%?^?
+=(=2=8=C=I=
+> >Q>a>g>
+6,747p7
+8 8*8b8y8
+9#9Q9X9_9j9}9
+9:<:@:
+2!4(4F4
+545K5
+878M8
+9(:b;
+5#585W5^547I7
+798@8G8N8U8\8|8
+;7<h<
+?-?;?I?
+U3j3
+3t4|4
+5^6o6{6
+9d:h:t:
+<s=|=
+>2>8>=>
+?'?-?3?9?L?s?
+1<3P3
+5#52575<5R5[5b5j5s5z5
+9 9G9s9{9
+9c:j:y:
+;";1;7;?;P;W;f;l;t;
+<%<6<=<L<R<Z<e<l<y<
+3l3p3|3
+3$4<4@4L4e4l4s4y4
+4!5h5m6
+6<7@7
+9l9p9
+:T;X;d;
+< <z<
+>0u0
+122W2
+6$6L7V7[7`7e7j7o7
+8!808F8L8V8i8q8w8
+909K9f9
+:,:2:A:G:\:b:j:p:
+;';3;9;I;W;g;
+<-=9=
+?6?<?F?R?n?v?{?
+0H0j0s0~0
+2$2,242<2D2L2T2\2d2l2t2|2
+5W5h5
+5!616K6Y6{6
+649:9E9x9
+9?:M:t:
+:\=n=R>_>
+><?I?f?t?
+1M5X5g5
+7B7P7U7}7
+9C:X:{:
+<&<M<g<
+<P=X=\=
+?[?p?
+000E0
+30484<4v4
+60787<7f7
+7p8x8|8
+="=4=
+>U>d>{>
+>?3???F?M?]?l?r?x?~?
+:';D;_;y;
+<0<J<c<
+=%=P=i=
+/3G3
+5Y6q6
+9?:l:
+;@;S;h;z;
+<)<5<D<P<_<r<
+<#=/=;=N=^=n=
+3:3}3
+344@4
+565o5
+8!838l8
+879N9
+9#:;:
+4i5}5
+;);9;
+<E<P<r<
+<F=X=d=n=~=
+>!>9>P>y>
+?(?-?U?^?o?
+0/1>1N1t1
+132O2u2
+4A4M4s4
+5K6Q6C7
+7(8.8Z8
+8>9j9
+0<0e0k0u0
+5f5t5
+527|7
+7F9P9
+<0<T<|<
+P0\0
+12Z2e2k3
+3h45|5`6u6
+7h8q9{9
+;';1;
+=.=R=h=w=
+=.>=>J>k>
+0"0L0]0
+<7<Q<
+=V=q=y=
+0t0x0
+04181^2
+4C4Q4u4
+4+545=5
+516n6
+7.7R7f7
+8M:r:
+<'</<:<W<a<l<r<x<
+<0=8=t=
+?J?l?w?
+0 0,060<0H0V0f0k0{0
+161M1_1
+1a2n2
+:7<N<
+=6>P>b>
+,;0;4;8;<;@;D;L;P;T;X;\;h;p;x;
+?$?,?4?<?D?L?T?\?d?l?t?|?
+0 0$0(0,000T0X0\0`0

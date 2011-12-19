@@ -40,14 +40,18 @@ int main() {
 			y = 0xA48D6762;
 			process();
 			
-			if(stuff == 0xA48D6762) printf("stuff=%08x\t line=%s\n", stuff, line);
-			else if(stuff == 0x6E72656B) printf("stuff=%08x\t line=%s\n", stuff, line);
-			else if(stuff == 0x32336C65) printf("stuff=%08x\t line=%s\n", stuff, line);
-			else if(stuff == 0x6C6C642E) printf("stuff=%08x\t line=%s\n", stuff, line);
-			else if(stuff == 0x6A582465) printf("stuff=%08x\t line=%s\n", stuff, line);
-			else if(stuff == 0x20088E6A) printf("stuff=%08x\t line=%s\n", stuff, line);
-			else if(stuff == 0x6C64746E) printf("stuff=%08x\t line=%s\n", stuff, line);
-			else if(stuff == 0x4C44544E) printf("stuff=%08x\t line=%s\n", stuff, line);
+			switch(stuff) {
+				case 0xA48D6762: 
+				case 0x6E72656B: 
+				case 0x32336C65:
+				case 0x6C6C642E:
+				case 0x6A582465:
+				case 0x20088E6A:
+				case 0x6C64746E:
+				case 0x4C44544E: 
+					printf("stuff=%08x\t line=%s\n", stuff, line);
+					break;
+			}
 			stuff = 0;
 		}
 		else {
